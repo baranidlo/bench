@@ -310,7 +310,11 @@
     "pulserayshield":"Pulse Ray Shield",
     "advancedoptics":"Advanced Optics",
     "starvipermkii":"StarViper Mk. II",
-    "shadowed":"Shadowed"
+    "shadowed":"Shadowed",
+    "harpoonmissiles":"Harpoon Missiles",
+    "harpooned":"Harpooned!",
+    "havoc":"Havoc",
+    "cadbane":"Cad Bane"
 },
 "pilots":{
     "crimsonsquadronpilot":"Crimson Squadron Pilot",
@@ -321,7 +325,7 @@
     "sienarjaemusanalyst":"Sienar-Jaemus Analyst",
     "firstordertestpilot":"First Order Test Pilot",
     "testpilotblackout":"Test Pilot 'Blackout'",
-    "kyloren":"Kylo Ren (TIE Silencer)",
+    "kylorentiesilencer":"Kylo Ren (TIE Silencer)",
     "tiesilencer":"TIE Silencer",
     "ap5":"AP-5",
     "zeborrelios":"'Zeb' Orrelios",
@@ -330,7 +334,7 @@
     "sheathipedeclassshuttle":"Sheathipede-class Shuttle",
     "cartelbrute":"Cartel Brute",
     "cartelexecutioner":"Cartel Executioner",
-    "dalanoberos":"Dalan Oberos (Kimogila)",
+    "dalanoberoskimogila":"Dalan Oberos (Kimogila)",
     "toranikulda":"Torani Kulda",
     "m12lkimogilafighter":"M12-L Kimogila Fighter",
     "nusquadronveteran":"Nu Squadron Veteran",

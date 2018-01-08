@@ -7,7 +7,7 @@ const VERSION="v0.99.2";
 var LANG="en";
 var FILTER="none";
 var DECLOAK_PHASE=1;
-const WEBSITE="http://xws-bench.github.io/bench/index.html";
+const WEBSITE="http://baranidlo.github.io/bench/index.html";
 const DICES=["focusred","hitred","criticalred","blankred","focusgreen","evadegreen","blankgreen"];
 const SETUP_PHASE=2,PLANNING_PHASE=3,ACTIVATION_PHASE=4,COMBAT_PHASE=5,SELECT_PHASE=1,CREATION_PHASE=6,XP_PHASE=7,MAIN_PHASE=0;
 var BOMBS=[];
@@ -137,9 +137,9 @@ const SCENARIOS= {
 const SETUPS={
      "Classic": {
 	"background":"css/playmat10.jpg",
-	 "zone1":"M 0 0 L 100 0 100 900 0 900 Z",
-	 "zone2":"M 800 0 L 900 0 900 900 800 900 Z",
-	 "playzone1":"M 0 0 L 900 0 900 900 0 900 Z",
+	 "zone1":"M 0 0 L 100 0 100 914.4 0 914.4 Z",
+	 "zone2":"M 814.4 0 L 914.4 0 914.4 914.4 814.4 914.4 Z",
+	 "playzone1":"M 0 0 L 914.4 0 914.4 914.4 0 914.4 Z",
          "asteroids":6
     },
     "Cloud City": {
@@ -1618,7 +1618,8 @@ var   dragstop= function(e) {
     VIEWPORT.dragged=false;
 }
 var scrolloverflow=function(event) {
-    var id=event.target.id;
+    //var id=event.target.id;
+    var id=event.currentTarget.id;
     $("#"+id+" .outoverflow").each(function(index) { 
 	if ($(this).css("top")!="auto") {
 	    $(this).css("top",$(this).parent().offset().top+"px");
@@ -1720,7 +1721,7 @@ $(document).ready(function() {
 	facebook: "1615235965440706",
 	windows: "",
 	google: "896425822430-lv5gd4lk9c88hc47cp5eeigsb1h8rbio.apps.googleusercontent.com"
-    }, {redirect_uri: 'http://xws-bench.github.io/bench/index.html'});
+    }, {redirect_uri: 'http://baranidlo.github.io/bench/index.html'});
     */    
     /*hello('facebook').api('me').then(function(r) {
 	console.log("my name is (facebook) "+r.name);
