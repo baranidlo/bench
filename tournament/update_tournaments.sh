@@ -3,7 +3,9 @@
 JUGGLERFILE="http://lists.starwarsclubhouse.com/api/v1/tournaments"
 JUGGLERFOLDER="http://lists.starwarsclubhouse.com/api/v1/tournament/"
 DTS=$( date --rfc-3339=seconds )
+LOGFILE=./latest_update.log
 
+(
 # Move old tournaments file to tournaments.old
 if [ -e tournaments ];
 then
@@ -46,6 +48,7 @@ then
 	echo "ERROR: git add failed!  Check git status!"
 	exit ${GITRETURN}
 fi
+) 2>&1 | tee ${LOGFILE}
 
 GITCOMMITMESSAGE=`git commit -m "Automatic Tournament Update Commit ${DTS}"`
 GITRETURN=$?
@@ -67,5 +70,4 @@ then
 	echo "ERROR: git push failed!  Check git status!"
 	exit ${GITRETURN}
 fi
-
 exit 0
