@@ -37,14 +37,35 @@ else
 fi
 
 # Add, commit, push new files to origin:gh-pages.  REQUIRES SSH KEYS SET UP AND TESTED!
-# See 
-git add . && git commit -m "Automatic Tournament Update Commit ${DTS}" && git push origin gh-pages
+git add .
 
 GITRETURN=$?
 
 if [ ! ${GITRETURN} -eq 0 ];
 then
-	echo "ERROR: git update failed!  Check git status!"
+	echo "ERROR: git add failed!  Check git status!"
 	exit ${GITRETURN}
 fi
+
+GITCOMMITMESSAGE=`git commit -m "Automatic Tournament Update Commit ${DTS}"`
+GITRETURN=$?
+
+# commit returns a '1' if it fails, *or* if it doesn't need to do any work because everything's up to date
+if [ ! ${GITRETURN} -eq 0 ];
+then
+	if [[ ! ${GITCOMMITMESSAGE} = *"nothing to commit, working directory clean"* ]];
+	then
+		echo "ERROR: git commmit failed!  Check git status!"
+		exit ${GITRETURN}
+	fi
+fi
+
+git push origin gh-pages
+GITRETURN=$?
+if [ ! ${GITRETURN} -eq 0 ];
+then
+	echo "ERROR: git push failed!  Check git status!"
+	exit ${GITRETURN}
+fi
+
 exit 0
