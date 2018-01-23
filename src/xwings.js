@@ -7,7 +7,7 @@ const VERSION="v0.99.2";
 var LANG="en";
 var FILTER="none";
 var DECLOAK_PHASE=1;
-const WEBSITE="http://baranidlo.github.io/bench/index.html";
+const WEBSITE="https://baranidlo.github.io/bench/main.html";
 const DICES=["focusred","hitred","criticalred","blankred","focusgreen","evadegreen","blankgreen"];
 const SETUP_PHASE=2,PLANNING_PHASE=3,ACTIVATION_PHASE=4,COMBAT_PHASE=5,SELECT_PHASE=1,CREATION_PHASE=6,XP_PHASE=7,MAIN_PHASE=0;
 var BOMBS=[];
@@ -545,18 +545,30 @@ function displaycompareresults(u,f) {
     if (typeof f!="function") f=u.lastdf;
     u.lastdf=f;
     $("#dtokens").empty();
-    var dm=targetunit.getresultmodifiers(targetunit.dr,targetunit.dd,Unit.ATTACKCOMPARE_M,Unit.DEFENSE_M);
-    var am=u.getresultmodifiers(u.ar,u.ad,Unit.ATTACKCOMPARE_M,Unit.ATTACK_M);
-    if (FAST||(dm.length==0&&am.length==0)) {
+
+    // Post-comparison mods: 
+    // 1) Defender mods Attacker's Dice (Countdown);
+    // 2) Attacker mods Attacker's Dice (Wampa);
+    // 3) Attacker mods Defender's Dice (Crack Shot);
+    // 4) Defender mods Defender's Dice (NA currently);
+    
+    var dam=targetunit.getresultmodifiers(u.ar, u.ad, Unit.ATTACKCOMPARE_M, Unit.ATTACK_M);
+    var aam=u.getresultmodifiers(u.ar,u.ad,Unit.ATTACKCOMPARE_M,Unit.ATTACK_M);
+    
+    var adm=u.getresultmodifiers(targetunit.dr,targetunit.dd,Unit.DEFENDCOMPARE_M,Unit.DEFENSE_M);
+    var ddm=targetunit.getresultmodifiers(targetunit.dr,targetunit.dd,Unit.DEFENDCOMPARE_M,Unit.DEFENSE_M);
+
+    if (FAST||u.ia&&(dam.length==0&&ddm.length==0)||(dam.length==0&&aam.length==0&&adm.length==0&&ddm.length==0)) {
 	$("#combatdial").hide();
 	//log("hiding combat dial compare");
 	f();
     } else {
-	$("#dtokens").append(dm).append(am);
+	$("#dtokens").append(dam).append(aam).append(adm).append(ddm);
 	$("#dtokens").append($("<button>").addClass("m-fire").click(function() {
 	    $("#combatdial").hide();
 	    //log("hiding combat dial finally");
-	    f();}.bind(u)));
+	    f();
+        }.bind(u)));
     }
 }
 
@@ -1648,6 +1660,7 @@ $(document).ready(function() {
 	  F3:{path:s.path("M 0 0 L 0 -160"), speed: 3, key:"8"},
 	  F4:{path:s.path("M 0 0 L 0 -200"), speed: 4, key:"8"},
 	  F5:{path:s.path("M 0 0 L 0 -240"), speed: 5, key: "8" },
+	  RF5:{path:s.path("M 0 0 L 0 -240"), speed: 5, key:"|"},
 	  // Turn right
 	  TR1:{path:s.path("M0 0 C 0 -40 15 -55 55 -55"), speed: 1, key:"6"},// 35 -35
 	  TR2:{path:s.path("M0 0 C 0 -50 33 -83 83 -83"), speed:2, key:"6"},// 63 -63

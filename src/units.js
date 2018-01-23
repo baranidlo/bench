@@ -19,7 +19,7 @@ var TIMEANIM=FAST?0:1000;
 var FACE=["focus","hit","critical","evade","blank"];
 var ATTACKDICE= [0,0,1,1,1,2,4,4];
 var DEFENSEDICE=[0,0,3,3,3,4,4,4];
-var MPOS={ F0:[0,3],RL1:[0,2],RR1:[0,4],RF1:[0,3],F1:[1,3],F2:[2,3],F3:[3,3],F4:[4,3],F5:[5,3],	
+var MPOS={ F0:[0,3],RL1:[0,2],RR1:[0,4],RF1:[0,3],RF5:[0,3],F1:[1,3],F2:[2,3],F3:[3,3],F4:[4,3],F5:[5,3],	
 	   BL1:[1,2],BL2:[2,2],BL3:[3,2],
 	   TL1:[1,1],TL2:[2,1],TL3:[3,1],
 	   BR1:[1,4],BR2:[2,4],BR3:[3,4],
@@ -54,6 +54,7 @@ var squadron=[];
 var active=0;
 var globalid=1;
 var targetunit;
+var attackunit;
 var PATTERN;
 var SOUND_DIR="ogg/";
 var SOUND_FILES=[
@@ -448,6 +449,7 @@ Unit.MOD_M=2;
 Unit.ATTACK_M=0;
 Unit.DEFENSE_M=1;
 Unit.ATTACKCOMPARE_M=2;
+Unit.DEFENDCOMPARE_M=3;
 Unit.REBEL="REBEL";
 Unit.EMPIRE="EMPIRE";
 Unit.SCUM="SCUM";
@@ -1100,6 +1102,9 @@ Unit.prototype = {
 	    ||(phase==ACTIVATION_PHASE)
 	    ||(phase==COMBAT_PHASE)) {
 	    var old=activeunit;
+            if(phase==COMBAT_PHASE){
+                attackunit=old;
+            }
 	    activeunit=this;
 	    if (old!=this) old.unselect();
 	    $("#"+this.id).addClass("selected");
@@ -1217,7 +1222,8 @@ Unit.prototype = {
 	var k,i,j;
 	var pathpts=[],os=[],op=[];
 	var collision={overlap:-1,template:[],mine:[]};
-	// Overlapping obstacle ? 
+	// Overlapping obstacle at landing point? 
+        var curOutlStr=this.getOutlineString(mbegin).s;
 	var so=this.getOutlineString(mend);
 	os=so.s;
 	op=so.p;
@@ -1241,22 +1247,24 @@ Unit.prototype = {
 		pathpts[k]={x:mbegin.x(p.x,p.y),y:mbegin.y(p.x,p.y)};
 	    }
 	    for (j=0; j<pathpts.length; j++) {
-		for (k=0; k<OBSTACLES.length; k++) {
-		    var o=OBSTACLES[k];
-		    if (o.type==NONE) continue;
-		    if (k!=collision.overlap&&k!=this.oldoverlap&&collision.template.indexOf(k)==-1&&collision.mine.indexOf(o)==-1) { // Do not count overlapped obstacle twice
-			var o2=o.getOutlineString().p;
-			for(i=0; i<o2.length; i++) {
-			    var dx=(o2[i].x-pathpts[j].x);
-			    var dy=(o2[i].y-pathpts[j].y);
-			    if (dx*dx+dy*dy<=100) { 
-				if (o.type!=Unit.BOMB) collision.template.push(k); 
-				else collision.mine.push(OBSTACLES[k]);
-				break;
-			    } 
-			}
-		    }
-		}
+                if(!(this.isPointInside(curOutlStr,[pathpts[j]]) || this.isPointInside(os,[pathpts[j]]))){ // ignore pathpts inside this's base
+                    for (k=0; k<OBSTACLES.length; k++) {
+                        var o=OBSTACLES[k];
+                        if (o.type==NONE) continue;
+                        if (k!=collision.overlap&&collision.template.indexOf(k)==-1&&collision.mine.indexOf(o)==-1) { // Do not count overlapped obstacle twice
+                            var o2=o.getOutlineString().p;
+                            for(i=0; i<o2.length; i++) {
+                                var dx=(o2[i].x-pathpts[j].x);
+                                var dy=(o2[i].y-pathpts[j].y);
+                                if (dx*dx+dy*dy<=100) { 
+                                    if (o.type!=Unit.BOMB) collision.template.push(k); 
+                                    else collision.mine.push(OBSTACLES[k]);
+                                    break;
+                                } 
+                            }
+                        }
+                    }
+                }
 	    }
 	}	   
 	return collision;
@@ -1289,12 +1297,12 @@ Unit.prototype = {
 	var len=path.getTotalLength();
 	if (this.islarge) len+=40;
 	var m0=m.clone();
-	if (maneuver.match(/RF1|RR1|RL1/)) m0=m0.rotate(180,0,0);
+	if (maneuver.match(/RF1|RF5|RR1|RL1/)) m0=m0.rotate(180,0,0);
 	var mm=this.getmatrixwithmove(m0, path, len);
 	if (maneuver.match(/K\d|SR\d|SL\d/)||halfturn==true) mm.rotate(180,0,0);
 	if (maneuver.match(/TRL\d/)) mm.rotate(-90,0,0);
 	if (maneuver.match(/TRR\d/)) mm.rotate(90,0,0);
-	if (maneuver.match(/RF1|RR1|RL1/)) mm.rotate(180,0,0);
+	if (maneuver.match(/RF1|RF5|RR1|RL1/)) mm.rotate(180,0,0);
 	path.remove();
 	return mm;
     },
@@ -2514,6 +2522,7 @@ Unit.prototype = {
     },
     doattackroll: function(ar,ad,w,me,n) {
 	ar=this.weapons[w].modifydamagegiven(ar);
+	this.weapons[w].lastattackroll=ar;
 	displayattackroll(ar,ad);
 	//this.log("target:"+targetunit.name+" "+defense+" "+ar+" "+ad+" "+defense+" "+n+" me:"+squadron[me].name);
 	this.ar=ar;this.ad=ad;
@@ -2605,7 +2614,7 @@ Unit.prototype = {
 	var m,oldm;
 	var lenC = path.getTotalLength();
 	var m0=this.m.clone();
-	if (dial.match(/RF1|RR1|RL1/)) m0=m0.rotate(180,0,0);
+	if (dial.match(/RF1|RF5|RR1|RL1/)) m0=m0.rotate(180,0,0);
 	if (this.islarge) lenC+=40;
 
 	this.moves=[this.getmatrixwithmove(m0,path,lenC)];
@@ -2662,13 +2671,13 @@ Unit.prototype = {
 	    if (!FAST) SOUNDS[this.ship.flysnd].play();
 	    Snap.animate(0, lenC, function( value ) {
 		m = this.getmatrixwithmove(m0,path,value);
-		if (dial.match(/RF1|RR1|RL1/)) m.rotate(180,0,0);
+		if (dial.match(/RF1|RF5|RR1|RL1/)) m.rotate(180,0,0);
 		this.g.transform(m);
 		this.geffect.transform(m);
 	    }.bind(this), TIMEANIM*lenC/200,mina.linear, function(){
 		if (!this.collision) { 
 		    // Special handling of K turns: half turn at end of movement. Straight line if collision.
-		    if (dial.match(/K\d|SR\d|SL\d|RF1|RR1|RL1/)||halfturn==true) {
+		    if (dial.match(/K\d|SR\d|SL\d|RF1|RF5|RR1|RL1/)||halfturn==true) {
 			this.m.rotate(180,0,0);
 			turn=180;
 		    } else if (dial.match(/TRL\d/)) {

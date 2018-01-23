@@ -603,7 +603,7 @@ var UPGRADES=window.UPGRADES= [
 		if (ptl.r!=round&&this.candoaction()&&type!==null) {
 		    ptl.r=round;
 		    this.doaction(this.getactionbarlist(),"+1 free action (Skip to cancel) ["+ptl.name+"]").done(function(type2) {
-			if (type2===null) ptl.r=-1; 
+			if (type2===null || typeof type2 === "undefined") ptl.r=-1; 
 			else this.addafteractions(function() { this.addstress(); }.bind(this));
 		    }.bind(this));
 		}
@@ -1625,46 +1625,79 @@ var UPGRADES=window.UPGRADES= [
         type: Unit.CREW,
         points: 2,
 	done:true,
+        endround: function () { this.jan = null; },
 	init: function(sh) {
-	    this.jan=-1;
+	    this.jan=null;
 	    var self=this;
-	    Unit.prototype.wrap_after("addfocustoken",this,function() {
-		if (!self.unit.dead&&this.getrange(sh)<=3&&this.isally(sh)&&self.jan<round) {
+            // Jan Ors needs to *intercept* Focus allocation, rather than *wrap* it.
+            Unit.prototype.realaddfocustoken=Unit.prototype.addfocustoken;
+            Unit.prototype.addfocustoken=function(){ return; };
+	    Unit.prototype.wrap_before("addfocustoken",this,function() {
+		if (!self.unit.dead&&this.isally(sh)&&self.jan===null&&this.getrange(sh)<=3) {
 		    this.log("select %FOCUS% or %EVADE% token [%0]",self.name);
 		    this.donoaction(
 			[{name:self.name,org:self,type:"FOCUS",action:function(n) { 
-			    this.endnoaction(n,"FOCUS"); }.bind(this)},
+			    this.realaddfocustoken();
+                            this.endnoaction(n,"FOCUS"); }.bind(this)},
 			 {name:self.name,org:self,type:"EVADE",action:function(n) { 
-			     self.jan=round;
-			     this.focus--; /* fix for bug with Garven */
+			     self.jan=this;
+                             //this.focus--; /* fix for bug with Garven */
 			     this.addevadetoken(); 
 			     this.endnoaction(n,"EVADE"); }.bind(this)}],
 			"",false);
 		}
+                else{
+                    this.realaddfocustoken();
+                }
 	    });
 	},
     },
-
     {
         name: "R4-D6",
+        done:true,
+        unique: true,
+        type: Unit.ASTROMECH,
+        points: 1,
         init: function(sh) {
-	    var self=this;
+	    var self=this;    
+            // This will be called many many times by tohitproba(), so we can't
+            // allow any state-changing calls to be made here.  But this is probably
+            // necessary for conmputing probability for IAUnit ships.
 	    sh.wrap_after("cancelhit",this,function(r,org,r2) {
 		var h=Unit.FCH_hit(r2.ch);
 		if (h>=3) {
 		    sh.log("cancelling %0 hits [%1]",h-2,self);
 		    var d=h-2;
 		    var ch=r2.ch-d*Unit.FCH_HIT;
-		    for (var i=0; i<d; i++) sh.addstress();
+		    //for (var i=0; i<d; i++) sh.addstress();
 		    return {ch:ch,e:r2.e};
 		}
 		return r2;
 	    });
+            // The actual work has to happen here.
+            sh.adddicemodifier(Unit.ATTACKCOMPARE_M,Unit.ADD_M,Unit.ATTACK_M,this,{
+                req:function(m, n) { 
+                    // Must be hit *and* have 3+ uncancelled hits
+                    var hd = $(".hitreddice").length;
+                    var th = hd + $(".criticalreddice").length;
+                    var ge = $(".evadegreendice").length;
+                    return self.unit === targetunit && 
+                            self.isactive && 
+                            (hd-ge >= 3) && 
+                            (th > ge);
+                },
+                f:function(m,n) { 
+                    // Presumed to be 3+ more hits than evades
+                    var roll=m;
+                    var hits = Unit.FCH_hit(m);
+                    var evades = $(".evadegreendice").length;
+                    var diff = hits - evades >= 3 ? hits - evades : 0;
+                    for(var i = 0; i < (diff-2); i++){
+                        sh.addstress();
+                    };
+                    return {'m':roll-((diff-2)*Unit.FCH_HIT),'n':n};
+            },str:"stress"});
 	},
-	done:true,
-        unique: true,
-        type: Unit.ASTROMECH,
-        points: 1,
     },
     {
         name: "R5-P9",
@@ -2054,6 +2087,11 @@ var UPGRADES=window.UPGRADES= [
         
     },
     {
+        // It is ill-advised to use wrap_after("modifyattackroll") with functions
+        // that test or manipulate focus values, because other effects may depend on
+        // these.  Specifically, Calculation + Garven Dreis causes multiple Focus
+        // tokens to be handed out due to tohitproba() repeatedly calling modifyattackroll()
+        // during testing attack success values in variations of a given attack.
         name: "Calculation",
 	done:true,
 	rating:1,
@@ -2061,7 +2099,8 @@ var UPGRADES=window.UPGRADES= [
 	    var self=this;
 	    sh.wrap_after("modifyattackroll",this,function(m,n,d,mm) {
 		if (this.canusefocus()&&Unit.FCH_focus(mm)>0) {
-		    this.removefocustoken();
+		    this.focus--; // This does not trigger Garven
+                    //this.removefocustoken();
 		    mm=mm-Unit.FCH_FOCUS+Unit.FCH_CRIT;
 		}
 		return mm;
@@ -2074,14 +2113,16 @@ var UPGRADES=window.UPGRADES= [
 		    return Unit.FCH_focus(m);
 		},
 		f:function(m,n) {
-		    var f=Unit.FCH_focus(m);
-		    this.removefocustoken();
-		    displayattacktokens(this);
-		    if (f>0) {
-			this.log("1 %FOCUS% -> 1 %CRIT% [%0]",self.name);
-			return m-Unit.FCH_FOCUS+Unit.FCH_CRIT;
-		    }
-		    return m;
+                    
+                    var f=Unit.FCH_focus(m);
+                    this.removefocustoken();
+                    displayattacktokens(this);
+                    if (f>0) {
+                        this.log("1 %FOCUS% -> 1 %CRIT% [%0]",self.name);
+                        return m-Unit.FCH_FOCUS+Unit.FCH_CRIT;
+                    }
+                    return m;
+
 		}.bind(sh),str:"focus"});
 	},   
         type: Unit.ELITE,
@@ -2470,7 +2511,7 @@ var UPGRADES=window.UPGRADES= [
 		    },["select unit (or self to cancel) [%0]",self.name],true);
 	    });
 	},
-        points: 3,
+        points: 3
     },
     {
         name: "Outlaw Tech",
@@ -2542,13 +2583,21 @@ var UPGRADES=window.UPGRADES= [
         name: "Shield Upgrade",
 	type:Unit.MOD,    
 	done:true,
+        hadshields:true,
 	install: function(sh) {
 	    sh.installed=true;
+            if(sh.shield<0 && sh.ship.shield<0){
+                this.hadshields = false;
+                sh.shield = sh.ship.shield = 0;
+            }
 	    sh.shield++; sh.ship.shield++;
 	    sh.showstats();
 	},
 	uninstall:function(sh) {
 	    sh.shield--; sh.ship.shield--;
+            if(!this.hadshields){
+                sh.shield = sh.ship.shield = -1;
+            }
 	    sh.showstats();
 	},
         points: 4,
@@ -2705,7 +2754,7 @@ var UPGRADES=window.UPGRADES= [
 		if (upg.r!=round&&this.candoaction()&&type!==null) {
 		    upg.r=round;
 		    this.doaction(this.getupgactionlist(),"+1 free action (Skip to cancel)").done(function(type2) {
-			if (type2===null) upg.r=-1;
+			if (type2===null || typeof type2 === "undefined") upg.r=-1;
 			else this.addafteractions(function() { this.addstress(); }.bind(this));
 		    }.bind(this));
 		}
@@ -3546,26 +3595,27 @@ var UPGRADES=window.UPGRADES= [
 	done:true,
 	init: function(sh) {
 	    var self=this;
-	    sh.wrap_after("modifydefenseroll",this,function(a,m,n,mm) {
-		if (Unit.FE_evade(mm)>0) mm=mm-Unit.FE_EVADE;
-		return mm;
-	    });
-	    sh.adddicemodifier(Unit.ATTACKCOMPARE_M,Unit.MOD_M,Unit.DEFENSE_M,this,{
-		req:function() {
-		    return this.isinfiringarc(targetunit)&&self.isactive;
-		}.bind(sh),
-		aiactivate:function(m,n) {
-		    return Unit.FE_evade(m)>0;
-		},
-		f:function(m,n) {
-		    self.desactivate();
-		    if (Unit.FE_evade(m)>0) {
-			sh.log("-1 %EVADE% [%0]",self.name);
-			m=m-Unit.FE_EVADE;
-		    } 
-		    return m;
-		},str:"evade"});
-	}
+            sh.adddicemodifier(Unit.DEFENDCOMPARE_M,Unit.ADD_M,Unit.DEFENSE_M,this,{
+                req:function() { return (self.isactive); },
+                f:function(m,n) {
+                    if( targetunit != self.unit){
+                        if(activeunit.ia){
+                            if (Unit.FE_evade(m)>0 && 
+                                    Unit.FE_evade(m) <= ($(".hitreddice").length + $(".criticalreddice").length)) {
+                                targetunit.log("%EVADE% removed [%0]",self.name); 
+                                m=m-Unit.FE_EVADE;
+                                self.desactivate();
+                            }
+                        }
+                        else{
+                            targetunit.log("%EVADE% removed [%0]",self.name); 
+                            m=m-Unit.FE_EVADE;
+                            self.desactivate();
+                        }
+                    }
+                    return {'m':m,'n':n};
+                },str:"evade"});
+        }
     },
     {
         name: "Advanced Homing Missiles",
@@ -4327,19 +4377,24 @@ var UPGRADES=window.UPGRADES= [
 	    sh.addafterdefenseeffect(this,function(c,h,t) {
 		if (self.r5p8==round) return;
 		self.r5p8=round;
-		this.donoaction([{name:this.name,org:this,type:"HIT",action:function(n) {
+		this.donoaction([{name:self.name,org:self,type:"HIT",action:function(n) {
 		    var roll=this.rollattackdie(1,self,"hit")[0];
 		    this.log("roll 1 attack dice [%0]",self.name);
 		    if (roll=="hit"||roll=="critical") { 
 			t.log("+1 %HIT% [%1]",self.name)
 			t.resolvehit(1); 
 			t.checkdead(); 
+                     
+                        if (roll=="critical") {
+                            this.log("+1 %HIT% [%1]",self.name)
+                            this.resolvehit(1);
+                            this.checkdead();
+                        }
 		    }
-		    if (roll=="critical") {
-			this.log("+1 %HIT% [%1]",self.name)
-			this.resolvehit(1);
-			this.checkdead();
-		    }
+                    else{
+                        this.log("No effect [%0]", self.name);
+                    }
+		  
 		    this.endnoaction(n,"");
 		}.bind(this)}],"",true);
 
@@ -4907,12 +4962,32 @@ var UPGRADES=window.UPGRADES= [
       islarge:true,
       points:1,
       done:true,
-      candoaction: function() { return this.isactive; },
+      candoaction: function() { 
+          return this.isactive; 
+      },
       action: function(n) {
 	  var self=this.unit;
+          var index;
+          var victim;
+          var victims = [];
+          var collision;
+          
 	  var m=self.getpathmatrix(self.m.clone().rotate(180,0,0),"F1").translate(40,-20).split();
 	  var ob=new Rock(MAXROCKS+9,[m.dx,m.dy,m.rotate+90],self.team,OBSTACLES.length);
 	  OBSTACLES.push(ob);
+          index = OBSTACLES.length - 1;
+          // Loop over squadron ships and check if they collided with ob
+          for (var i in squadron){
+              victim = squadron[i];
+              collision = victim.getocollisions(victim.m, victim.m); // Check for 0-path-length collisions
+              if (collision.overlap != -1) victims.push(victim);              
+          };
+          // For each victim, resolveocollision and set oldoverlap = index
+          for (var j in victims){
+              victims[j].resolveocollision(index,[]);
+              victims[j].oldoverlap=index;
+          }
+          
 	  this.desactivate();
 	  self.endaction(n,Unit.ILLICIT);
       }
@@ -5202,44 +5277,86 @@ var UPGRADES=window.UPGRADES= [
      done:true,
      // Snap Shot *is* a Secondary Weapon
      isWeapon: function() { return true;},
+     isTurret: function() { return false;},
      // Snap Shot can only fire once per *phase*
-     // Not sure how to enact that part, though.
-     endattack: function(c,h) { this.unit.addhasfired(); },
+     endattack: function(c,h) {
+        this.lastphase = this.phase;
+        this.phase = phase;
+     },
+     firesnd:"",
      attack: 2,
      range: [1,1],
+     lastphase: -1,
+     phase: -1,
+     firing: false,
+     index: -1,
      init: function(sh) {
 	 var self=this;
-	 Unit.prototype.wrap_after("doendmaneuveraction",self,function() {
-	     var wpl=[];
-	     for (var i in self.unit.weapons)
-		 if (self.unit.weapons[i].name == "Snap Shot")
-		     wpl.push(self.unit.weapons[i]);
-	     
-	     if (wpl.length>0) {
-		 sh.doselection(function(n) {
-		     self.unit.select();
-		     self.unit.wrap_before("selecttargetforattack",self,function() {
-			 self.unit.endnoaction(n,"ATTACK");
-		     }).unwrapper("cleanupattack");
-		     self.unit.wrap_after("getdicemodifiers",self,function() {
-			 return [];
-		     }).unwrapper("cleanupattack");
-		     self.unit.wrap_before("cancelattack",self,function() {
-			 //self.unit.maxfired++;
-			 $("#attackdial").hide();
-			 self.unit.endnoaction(n,"ATTACK");
-		     }).unwrapper("cleanupattack");
-                     // Check if this != this.isally(self.unit)?
-                     // In this context, self.unit is Snap Shot host
-                     // this is any ship
-                     if(!this.isally(self.unit) && 
-                             this.getrange(self.unit)<=wpl[0].gethighrange()){
-                        self.unit.doattack(wpl,[this]);
-                    } else self.unit.endnoaction(n,"ELITE");
-		 }.bind(this));
-	     }
+         self.firesnd=self.unit.ship.firesnd;
+         for (var i in self.unit.weapons){
+             if (self.unit.weapons[i] == self){
+                 this.index = i;
+                 break;
+             }
+         }
+         sh.wrap_after("resolveattack", self, function(){
+             if(phase != COMBAT_PHASE){
+                 sh.hasfired = 0;
+             }
+         });
+         sh.wrap_after("cancelattack", self, function(){
+             if(phase != COMBAT_PHASE){
+                 sh.hasfired = 0;
+             }
+         });
+	 Unit.prototype.wrap_before("endmaneuver",self,function() {
+             // There are some restrictions on Snap Shot that should be checked prior
+             // to adding any functionality to the holder (self.unit):
+             // 1) activeunit is not self.unit                          check
+             // 2) activeunit is not ally of self.unit                  check
+             // 3) activeunit is within this weapon's range             check
+             // 4) weapon has not fired this *phase*                    check
+             // 5) weapon has not been activated for another target.    N/A
+            if(this!=self.unit && (!this.isally(self.unit)) &&
+                this.getrange(self.unit)<=self.unit.weapons[self.index].gethighrange())
+            {
+                if(self.phase < phase){
+                   sh.doselection(function(n) {
+                       self.unit.select();
+                       self.unit.wrap_before("selecttargetforattack",self,function() {
+                           self.unit.endnoaction(n,"ATTACK");
+                       }).unwrapper("cleanupattack");
+                       self.unit.wrap_after("getdicemodifiers",self,function() {
+                           // Iterate back through arguments (all mods available to self.unit
+                           // and remove any that Mod or Reroll the Attack Dice 
+                            var i = arguments[0].length;
+                            var newargs = arguments[0].slice();
+                            var nextarg;
+                            while (i--) {
+                                nextarg = newargs[i];
+                                if(nextarg.to == Unit.ATTACK_M || nextarg.from == Unit.ATTACK_M){
+                                    if (newargs[i].type==Unit.MOD_M || newargs[i].type==Unit.REROLL_M) { 
+                                        newargs.splice(i, 1);
+                                    } 
+                                }
+                            }
+                            return newargs;
+                       }).unwrapper("cleanupattack");
+                       self.unit.wrap_before("cancelattack",self,function() {
+                           //self.unit.maxfired++;
+                           self.phase = self.lastphase;
+                           $("#attackdial").hide();
+                           self.unit.endnoaction(n,"ATTACK");
+                       }).unwrapper("cleanupattack");
+                       // Check if this != this.isally(self.unit)?
+                       // In this context, self.unit is Snap Shot host
+                       // this is any ship
+                        self.unit.doattack([self.unit.weapons[self.index]],[this]);
+                   }.bind(this), this);
+                }
+            }
 	 });
-     }
+        }
     },
     {name:"M9-G8",
      type:Unit.ASTROMECH,
@@ -5761,13 +5878,14 @@ var UPGRADES=window.UPGRADES= [
 		     this.endnoaction(n,"TITLE");
 
 		     //this.doselection(function(nn) {
-			 this.hasmoved=false;
+                     this.hasmoved=false;
 		     this.newlock().done(function() {
 			 this.newlock().done(nextactivation);
 			 nextactivation();
 		     }.bind(this));
 		 });
 		 this.resolveactionmove(p,function(t,k) {
+                     if (k === -1) k=0;
 		     this.maneuver=q[k];
 		     this.resolvemaneuver();
 		 }.bind(this),false,true);
@@ -5988,30 +6106,30 @@ var UPGRADES=window.UPGRADES= [
 
     },
 
-	{
-		name:"Advanced Optics",
-		points: 2,
-		type:Unit.TECH,
-		done:true,
-		init: function(sh) {
-			var self=this;
-			sh.wrap_after("addfocustoken",this,function() {
-				if (this.focus>1) {
-					this.log("1 %FOCUS% max [%0]",self.name);
-					this.focus=1;
-				}
-				this.showinfo();
-			});
-			sh.wrap_after("resetfocus",this,function() {
-				var r=0;
-				if (this.focus>0) {
-					this.log("keep 1 %FOCUS% token [%0]",self.name);
-					r=1;
-				}
-				return r;
-			});
-		},
-	},
+    {
+        name:"Advanced Optics",
+        points: 2,
+        type:Unit.TECH,
+        done:true,
+        init: function(sh) {
+            var self=this;
+            sh.wrap_after("addfocustoken",this,function() {
+                if (this.focus>1) {
+                    this.log("1 %FOCUS% max [%0]",self.name);
+                    this.focus=1;
+                }
+                this.showinfo();
+            });
+            sh.wrap_after("resetfocus",this,function() {
+                var r=0;
+                if (this.focus>0) {
+                    this.log("keep 1 %FOCUS% token [%0]",self.name);
+                    r=1;
+                }
+                return r;
+            });
+        },
+    },
 
 	{
 		name:"StarViper Mk. II",
@@ -6087,6 +6205,154 @@ var UPGRADES=window.UPGRADES= [
 		faction:Unit.SCUM,
 		unique:true,
 		done:false
-      	}
+      	},
+	{
+		name: "Cruise Missiles",
+		requires:"Target",
+		consumes:false,
+		type: Unit.MISSILE,
+		firesnd:"missile",
+		attack: 1,
+		range: [2,3],
+		done:true,
+		points: 3,
+		getattack: function() {
+			var a=this.attack;
+			var maneuver = this.unit.lastmaneuver;
+			var dial = this.unit.dial;
+			if (maneuver != -1) {
+				var speed = parseInt(dial[maneuver].move.substr(-1));
+				if (speed <= 4) {
+				       	a+=speed;
+				} else {
+					a+=4;
+				}
+			}
+			return a;
+		},
+	},
+	{
+	name: "Trajectory Simulator",
+	type: Unit.SYSTEM,
+	points: 1,
+	done:true,
+	init:function(sh) {
+	    sh.wrap_after("getbomblocation",this,function(d) {
+		if (d.indexOf("F1")>-1) return d.concat("RF5");
+		return d;
+	    })
+	},
+        },
+	{
+		name: "Bomblet Generator",
+		done:true,
+		img:"seismic.png",
+		snd:"explode",
+		width: 16,
+		height:8,
+		size:15,
+		explode:function() {
+			if (phase==ACTIVATION_PHASE&&!this.exploded) {
+				var r=this.getrangeallunits();
+				for (var i=0; i<r[1].length; i++) {
+					var u=squadron[r[1][i].unit];
+					var roll=this.unit.rollattackdie(2,this,"hit");
+					for (var j=0; j<2; j++) {
+						if (roll[j]=="hit") { 
+							u.log("+1 %HIT% [%0]",this.name); 
+							u.resolvehit(1); 
+							u.checkdead(); 
+						} else if (roll[i]=="critical") { 
+							u.log("+1 %CRIT% [%0]",this.name); 
+							u.resolvecritical(1);
+							u.checkdead();
+						}
+					}
+				}
+				this.explode_base();
+				this.exploded = false;
+		    }
+		},
+		drop: function(lm,n) {
+			var dropped=this;
+			dropped.resolveactionmove(this.unit.getbombposition(lm,this.size), function(k) {
+			    this.display(0,0);
+			    this.unit.bombdropped(this);
+			    if (typeof n!="undefined") this.unit.endnoaction(n,"DROP");
+			}.bind(dropped),false,true);
+		},
+		type: Unit.BOMB,
+		points: 3,
+		takesdouble: true
+    },    
+    { 
+		name:"Wookiee Commandos",
+		type:Unit.CREW,
+		points:1,
+		faction:Unit.REBEL,
+		done:true,
+		takesdouble: true,
+		init: function(sh) {
+			sh.adddicemodifier(Unit.ATTACK_M,Unit.REROLL_M,Unit.ATTACK_M,this,{
+				dice:["focus"],
+				n:function() { 
+					if (sh.activeweapon >= 0) {
+						return Math.floor(sh.weapons[sh.activeweapon].lastattackroll/Unit.FCH_FOCUS);
+					} else {
+						return 0;
+					}
+				},
+				req:function(attacker,w,defender) {
+					return this.isactive;
+				}.bind(this)
+	    		});
+	}
+    },
+	{
+		name: "Xg-1 Assault Configuration",
+		type:Unit.TITLE,
+		done:false,
+		upgrades:[Unit.CANNON, Unit.CANNON],
+		points: 1,
+		ship: "Alpha-class Star Wing",
+		init: function(sh) {
+			var cannons2pt = [];
+			for (var i=0; i<sh.weapons.length; i++) {
+				var w = sh.weapons[i];
+				if (w.type==Unit.CANNON&&w.points<=2) {
+					cannons2pt.push(i);
+				}
+			}
+			sh.canfire = function() {
+				var b=(this.noattack<round || cannons2pt.length>0)
+					&&(this.hasfired<this.maxfired)
+					&&!this.iscloaked
+					&&!this.isfireobstructed();
+			        return b;
+			}.bind(sh);
 
+// TODO			
+/*			
+			sh.doattack = function(weaponlist, enemies) {
+				if (this.noattack<round) {
+					this.activeweapons=weaponlist;
+					this.activeenemies=enemies;
+					this.showattack(weaponlist,enemies);
+				} else {
+					this.activeweapons=cannons2pt;
+					this.activeenemies=enemies;
+					this.showattack(cannons2pt,enemies);				}
+			}.bind(sh);
+*/
+		}
+	},
+	{
+		name: "Os-1 Arsenal Loadout",
+		type:Unit.TITLE,
+		done:false,
+		upgrades:[Unit.TORPEDO, Unit.MISSILE],
+		points: 2,
+		ship: "Alpha-class Star Wing",
+		// TODO
+	}
 ];

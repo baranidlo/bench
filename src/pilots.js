@@ -52,7 +52,7 @@ var maarek_fct = function() {
 	var pp=$.Deferred();
 	p.then(function(cf) {
 	    var crit=cf.crit;
-	    if (cf.face==Critical.FACEUP&&activeunit==unit&&targetunit==this) {
+	    if (cf.face==Critical.FACEUP&&attackunit==unit&&targetunit==this) {
 		var s1=this.selectdamage();
 		Critical.CRITICAL_DECK[s1].count--;
 		var s2=this.selectdamage();
@@ -155,10 +155,10 @@ window.PILOTS = [
         unit: "X-Wing",
 	init: function() {
 	    this.wrap_after("removefocustoken",this,function() {
-		this.selectunit(this.selectnearbyally(2),function (p,k) { 
-		    p[k].log("+1 %FOCUS%");
-		    p[k].addfocustoken();
-		}.bind(this),["select unit for free %FOCUS%"],false);
+                this.selectunit(this.selectnearbyally(2),function (p,k) { 
+                    p[k].log("+1 %FOCUS%");
+                    p[k].addfocustoken();
+                }.bind(this),["select unit for free %FOCUS%"],false);
 	    });
 	},
 	pilotid:2,
@@ -1567,7 +1567,7 @@ window.PILOTS = [
 			   this,this.weapons,
 			   function() { 
 			       this.log("no attack next round"); 
-			       this.noattack=round+1; },
+			       this.noattack=round+1; }.bind(this),
 			   null,
 			   "endcombatphase");
 	},
@@ -1651,16 +1651,18 @@ window.PILOTS = [
 	pilotid:84,
 	init: function() {
 	    this.wrap_before("cleanupattack",this,function() {
-		if (targetunit.targeting.length>0) {
-		    targetunit.log("-1 %TARGET% [%0]",this.name);
-		    targetunit.removetarget(targetunit.targeting[0]);
-		} else if (targetunit.focus>0) {
-		    targetunit.log("-1 %FOCUS% [%0]",this.name);
-		    targetunit.removefocustoken();
-		} else if (targetunit.evade>0) {
-		    targetunit.log("-1 %EVADE% [%0]",this.name);
-		    targetunit.removeevadetoken();
-		}
+                if(targetunit !== undefined){
+                    if (targetunit.targeting.length>0) {
+                        targetunit.log("-1 %TARGET% [%0]",this.name);
+                        targetunit.removetarget(targetunit.targeting[0]);
+                    } else if (targetunit.focus>0) {
+                        targetunit.log("-1 %FOCUS% [%0]",this.name);
+                        targetunit.removefocustoken();
+                    } else if (targetunit.evade>0) {
+                        targetunit.log("-1 %EVADE% [%0]",this.name);
+                        targetunit.removeevadetoken();
+                    }
+                }
 	    });
 	},
 	faction:Unit.REBEL,
@@ -3379,13 +3381,26 @@ window.PILOTS = [
 	init: function() {
 	    this.adddicemodifier(Unit.ATTACKCOMPARE_M,Unit.ADD_M,Unit.ATTACK_M,this,{
 		req:function(m,n) { return n>0; },
-		f:function(m,n) {
-		    this.log("cancel all dice");
-		    if (Unit.FCH_crit(m)>0) {
-			targetunit.log("+1 damage card [%0]",this.name);
-			targetunit.applydamage(1);
-		    }
-		    return {m:0,n:0};
+		f:function(m,n) { // AI section needs to save original values
+                    if(activeunit.ia){
+                        var om = m;
+                        var on = n;
+                        if (Unit.FCH_crit(m)>0) {
+                            this.log("cancel all dice");
+                            targetunit.log("+1 damage card [%0]",this.name);
+                            targetunit.applydamage(1);
+                            return {m:0,n:0};
+                        }
+                        else return {m:om,n:on};
+                    }
+                    else{
+                        this.log("cancel all dice");
+                        if (Unit.FCH_crit(m)>0) {
+                            targetunit.log("+1 damage card [%0]",this.name);
+                            targetunit.applydamage(1);
+                        }
+                        return {m:0,n:0};
+                    }
 		}.bind(this),str:"critical"});
 	},
 	upgrades:[]
@@ -4526,7 +4541,7 @@ window.PILOTS = [
       done:true,
       points:20,
       init: function() {
-	    this.adddicemodifier(Unit.ATTACKCOMPARE_M,Unit.ADD_M,Unit.DEFENSE_M,this,{
+	    this.adddicemodifier(Unit.ATTACKCOMPARE_M,Unit.ADD_M,Unit.ATTACK_M,this,{
 		req:function(m,n) { return this.stress==0&&n>0; }.bind(this),
 		f:function(m,n) {
 		    if (this.stress==0) {
@@ -4983,29 +4998,46 @@ window.PILOTS = [
 	        upgrades: [Unit.ELITE,Unit.TORPEDO]
 	},
 	{
-        	name: "Thweek",
-	        faction:Unit.SCUM,
-	        done:false,
-		unique:true,
-		pilotid:257,
-	        unit: "StarViper",
-	        skill: 4,
-	        points: 28,
-	        upgrades: [Unit.TORPEDO],
-		init: function() {
-			var self=this;
-			this.wrap_after("endsetupphase",this,function() {
-				var p=[];
-				for (var i in squadron)
-					if (squadron[i].team!=this.team) p.push(squadron[i]);
-				if (p.length>0) {
-					this.log("select unit for condition [%0]","Shadowed");
-					this.resolveactionselection(p,function(k) {
-						new Condition(p[k],this,"Shadowed");
-					}.bind(this));
-	      			}
-			});
-      		}
+            name: "Thweek",
+            faction:Unit.SCUM,
+            done:false,
+            unique:true,
+            pilotid:257,
+            unit: "StarViper",
+            skill: 4,
+            points: 28,
+            upgrades: [Unit.TORPEDO],
+            init: function() {
+                var self=this;
+                this.wrap_after("endsetupphase",this,function() {
+                    var p=[];
+                    for (var i in squadron){
+                        if (squadron[i].team!=this.team) 
+                            p.push(squadron[i]);
+                    };
+                    var lock=$.Deferred();
+                    this.selectunit( //Gives us skip functionality
+                        p,
+			function(p,k) {
+                            this.log("select unit for condition [%0]","Shadowed");
+                            new Condition(p[k],this,"Shadowed");
+                            lock.resolve();
+                        }.bind(this),
+                        ["select unit for condition (or self to cancel) [%0]",self.name],
+                        true); //somehow, "noskip" == allow skip
+                });
+//                this.wrap_after("endsetupphase",this,function() {
+//                    var p=[];
+//                    for (var i in squadron)
+//                        if (squadron[i].team!=this.team) p.push(squadron[i]);
+//                    if (p.length>0) {
+//                        this.log("select unit for condition [%0]","Shadowed");
+//                        this.resolveactionselection(p,function(k) {
+//                            new Condition(p[k],this,"Shadowed");
+//                        }.bind(this));
+//                    }
+//                });
+            }
 	},
 	{
         	name: "Black Sun Assassin",
