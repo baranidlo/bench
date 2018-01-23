@@ -10,10 +10,10 @@ def diffFiles(old, new):
     old_tournament_data = None
     new_tournament_data = None
 
-    with open('tournaments.old', 'r') as o:
+    with open(old, 'r') as o:
          old_tournament_data = json.load(o)
 
-    with open('tournaments', 'r') as n:
+    with open(new, 'r') as n:
         new_tournament_data = json.load(n)
 
     old_set = set(old_tournament_data['tournaments'])
