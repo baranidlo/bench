@@ -1,14 +1,14 @@
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2018-01-23 11:22:21--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2018-01-23 11:31:46--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 36127 (35K) [application/json]
 Saving to: ‘tournaments’
 
-     0K .......... .......... .......... .....                100%  390K=0.09s
+     0K .......... .......... .......... .....                100%  402K=0.09s
 
-2018-01-23 11:22:21 (390 KB/s) - ‘tournaments’ saved [36127/36127]
+2018-01-23 11:31:46 (402 KB/s) - ‘tournaments’ saved [36127/36127]
 
 Downloading new tournament list data...
