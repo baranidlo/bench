@@ -4,6 +4,16 @@ JUGGLERFILE="http://lists.starwarsclubhouse.com/api/v1/tournaments"
 JUGGLERFOLDER="http://lists.starwarsclubhouse.com/api/v1/tournament/"
 DTS=$( date --rfc-3339=seconds )
 
+# Pull branch so that git doesn't complain and force a merge
+git pull origin gh-pages
+GITRETURN=$?
+
+if [ ! ${GITRETURN} -eq 0 ];
+then
+	echo "ERROR: git pull failed!  State may be bad!  Check git status!"
+	# Don't error out, but be prepared for failure later.
+fi
+
 # Move old tournaments file to tournaments.old
 if [ -e tournaments ];
 then
