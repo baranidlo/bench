@@ -1,6 +1,6 @@
 /*<span class="smallbutton" onclick="SQUADLIST.displaycombats({{nrows}})">Replay</span>*/
-//var JUGGLERWEBSITE="http://lists.starwarsclubhouse.com/api/v1/";
-var JUGGLERWEBSITE="";
+var JUGGLERWEBSITE="http://lists.starwarsclubhouse.com/api/v1/";
+//var JUGGLERWEBSITE="";
 
 var mk2split = function(t) {
     var tt=t.split("\.");
@@ -117,7 +117,7 @@ Squadlist.prototype = {
     },
     addtournamentlists:function(latest) {
 	var req = new XMLHttpRequest();
-        req.overrideMimeType("application/json");  // For local juggler file loading
+        //req.overrideMimeType("application/json");  // For local juggler file loading
 	req.open('GET', JUGGLERWEBSITE+"tournament/"+latest, true);
 	req.onreadystatechange = function() {
 	    if (req.readyState === 4) {
@@ -156,7 +156,7 @@ Squadlist.prototype = {
     },
     latest: function() {
 	var req = new XMLHttpRequest();
-        req.overrideMimeType("application/json");
+        // req.overrideMimeType("application/json"); // For local juggler sourcing
 	var i;
 	this.allresults={};
 	this.rows=[];
@@ -164,7 +164,8 @@ Squadlist.prototype = {
 	$(this.id+" tbody").html("");
 	this.log={};
 	// Feature detection for CORS
-	req.open('GET', JUGGLERWEBSITE+"tournament/tournaments", true);
+	//req.open('GET', JUGGLERWEBSITE+"tournament/tournaments", true);
+        req.open('GET', JUGGLERWEBSITE+"tournaments", true);
 	// Just like regular ol' XHR
 	req.onreadystatechange = function() {
             if (req.readyState === 4) {

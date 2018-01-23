@@ -6,6 +6,7 @@
   "start_url": "index.html",
   "display": "fullscreen",
   "orientation": "landscape",
+  "permissions": ["*://.starwarsclubhouse.com/*", "XMLHttpRequest"],
   "icons":[
     {
       "src": "squadronbenchmark-128x128.png",
