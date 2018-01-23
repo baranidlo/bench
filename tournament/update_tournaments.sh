@@ -28,7 +28,7 @@ fi
 if [ -e tournaments ];
 then
 	echo "Downloading new tournament list data..."
-	for FILE in `./diff_tournaments.py "tournament.old" "tournament"`; do
+	for FILE in `./diff_tournaments.py "tournaments.old" "tournaments"`; do
 		wget ${JUGGLERFOLDER}${FILE} -O ${FILE}
 	done
 else
