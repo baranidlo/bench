@@ -8,7 +8,7 @@ DTS=$( date --rfc-3339=seconds )
 if [ -e tournaments ];
 then
 	echo "Moving old 'tournaments' to 'tournaments.old'..."
-	mv tournaments tournaments.old
+	mv -f tournaments tournaments.old
 else
 	echo "ERROR: 'tournaments' file not found!"
 	exit 1
