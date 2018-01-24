@@ -3,17 +3,26 @@ From github.com:sleet01/bench
 Already up-to-date.
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2018-01-23 14:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2018-01-23 16:00:01--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 36127 (35K) [application/json]
+Length: 36138 (35K) [application/json]
 Saving to: ‘tournaments’
 
-     0K .......... .......... .......... .....                100%  395K=0.09s
+     0K .......... .......... .......... .....                100%  389K=0.09s
 
-2018-01-23 14:00:02 (395 KB/s) - ‘tournaments’ saved [36127/36127]
+2018-01-23 16:00:02 (389 KB/s) - ‘tournaments’ saved [36138/36138]
 
 Downloading new tournament list data...
-To git@github.com:sleet01/bench.git
-   49cbc43..31eb5cd  gh-pages -> gh-pages
+--2018-01-23 16:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournament/3899
+Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
+Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6648 (6.5K) [application/json]
+Saving to: ‘3899’
+
+     0K ......                                                100% 8.05M=0.001s
+
+2018-01-23 16:00:02 (8.05 MB/s) - ‘3899’ saved [6648/6648]
+
