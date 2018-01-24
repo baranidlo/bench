@@ -1,19 +1,34 @@
 From github.com:sleet01/bench
  * branch            gh-pages   -> FETCH_HEAD
-Already up-to-date.
+   6d21e35..a6c8c63  gh-pages   -> origin/gh-pages
+Updating 6d21e35..a6c8c63
+Fast-forward
+ data/xws.json | 1 -
+ js/all.min.js | 6 +++---
+ src/pilots.js | 4 +++-
+ 3 files changed, 6 insertions(+), 5 deletions(-)
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2018-01-23 18:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2018-01-23 20:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 36138 (35K) [application/json]
+Length: 36149 (35K) [application/json]
 Saving to: ‘tournaments’
 
-     0K .......... .......... .......... .....                100%  408K=0.09s
+     0K .......... .......... .......... .....                100%  391K=0.09s
 
-2018-01-23 18:00:02 (408 KB/s) - ‘tournaments’ saved [36138/36138]
+2018-01-23 20:00:02 (391 KB/s) - ‘tournaments’ saved [36149/36149]
 
 Downloading new tournament list data...
-To git@github.com:sleet01/bench.git
-   7bed2fe..f0c3f53  gh-pages -> gh-pages
+--2018-01-23 20:00:03--  http://lists.starwarsclubhouse.com/api/v1/tournament/3900
+Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
+Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9116 (8.9K) [application/json]
+Saving to: ‘3900’
+
+     0K ........                                              100% 10.4M=0.001s
+
+2018-01-23 20:00:03 (10.4 MB/s) - ‘3900’ saved [9116/9116]
+
