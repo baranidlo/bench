@@ -826,63 +826,6 @@
         "sos": "0.64"
       }, 
       {
-        "list": {
-          "faction": "scum", 
-          "pilots": [
-            {
-              "name": "thweek", 
-              "ship": "starviper", 
-              "upgrades": {
-                "mod": [
-                  "autothrusters"
-                ], 
-                "title": [
-                  "starvipermkii"
-                ]
-              }
-            }, 
-            {
-              "name": "karthakkpirate", 
-              "ship": "scurrgh6bomber", 
-              "upgrades": {
-                "crew": [
-                  "tactician"
-                ], 
-                "mod": [
-                  "longrangescanners"
-                ]
-              }
-            }, 
-            {
-              "name": "inaldra", 
-              "ship": "m3ainterceptor", 
-              "upgrades": {
-                "cannon": [
-                  "ioncannon"
-                ], 
-                "ept": [
-                  "crackshot"
-                ], 
-                "mod": [
-                  "pulsedrayshield"
-                ]
-              }
-            }, 
-            {
-              "name": "cartelbrute", 
-              "ship": "m12lkimogilafighter", 
-              "upgrades": {
-                "mod": [
-                  "longrangescanners"
-                ]
-              }
-            }
-          ], 
-          "vendor": {
-            "listjuggler": {}
-          }, 
-          "version": "4.2.0"
-        }, 
         "mov": 759, 
         "name": "Jim Frank", 
         "rank": {
