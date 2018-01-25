@@ -782,15 +782,6 @@
           "faction": "rebel", 
           "pilots": [
             {
-              "name": "ezrabridger", 
-              "ship": "sheathipedeclassshuttle", 
-              "upgrades": {
-                "amd": [
-                  "flightassistastromech"
-                ]
-              }
-            }, 
-            {
               "name": "sharabey", 
               "ship": "arc170", 
               "upgrades": {
@@ -808,6 +799,18 @@
                 ], 
                 "title": [
                   "allianceoverhaul"
+                ]
+              }
+            }, 
+            {
+              "name": "ap5", 
+              "ship": "sheathipedeclassshuttle", 
+              "upgrades": {
+                "amd": [
+                  "flightassistastromech"
+                ], 
+                "crew": [
+                  "inspiringrecruit"
                 ]
               }
             }, 
