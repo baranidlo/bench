@@ -1,19 +1,26 @@
 From github.com:sleet01/bench
  * branch            gh-pages   -> FETCH_HEAD
-Already up-to-date.
+   16bf23b..b98ea89  gh-pages   -> origin/gh-pages
+Updating 16bf23b..b98ea89
+Fast-forward
+ data/strings.en.json |   2 +-
+ data/xws.json        |   1 -
+ js/all.min.js        | 379 ++++++++++++++++++++++++++-------------------------
+ main.html            |   7 +-
+ src/pilots.js        |   4 +-
+ src/upgcards.js      |  51 ++++---
+ 6 files changed, 233 insertions(+), 211 deletions(-)
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2018-01-25 12:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2018-01-25 16:00:02--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 34.206.101.184
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|34.206.101.184|:80... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 36160 (35K) [application/json]
 Saving to: ‘tournaments’
 
-     0K .......... .......... .......... .....                100%  405K=0.09s
+     0K .......... .......... .......... .....                100%  364K=0.1s
 
-2018-01-25 12:00:02 (405 KB/s) - ‘tournaments’ saved [36160/36160]
+2018-01-25 16:00:02 (364 KB/s) - ‘tournaments’ saved [36160/36160]
 
 Downloading new tournament list data...
-To git@github.com:sleet01/bench.git
-   71afcf7..ce2610f  gh-pages -> gh-pages
