@@ -176,17 +176,19 @@ Squadlist.prototype = {
 		    var p=[];
 		    for (i=0; i<5; i++) {
 			var latest=resp.tournaments[resp.tournaments.length-1-i];
-			if (typeof localStorage["_TOURNAMENT"+latest]=="undefined") {
-			    this.addtournamentlists(latest);
-			} else {
-			    
-			    var tt=$.parseJSON(localStorage["_TOURNAMENT"+latest]);
-			    for (var j in tt.list) {
-				var l=tt.list[j];
-				this.addrow(0,"COMPETITION0",l.points,l.faction,l.jug,false,tt.event);
-			    }
-			    console.log("tournament "+latest+" in cache");
-			}
+                        this.addtournamentlists(latest); 
+                        // caching only works if we can mark older versions as "dirty", so disabled.
+//			if (typeof localStorage["_TOURNAMENT"+latest]=="undefined") {
+//			    this.addtournamentlists(latest);
+//			} else {
+//			    
+//			    var tt=$.parseJSON(localStorage["_TOURNAMENT"+latest]);
+//			    for (var j in tt.list) {
+//				var l=tt.list[j];
+//				this.addrow(0,"COMPETITION0",l.points,l.faction,l.jug,false,tt.event);
+//			    }
+//			    console.log("tournament "+latest+" in cache");
+//			}
 			p[i]=parseInt(latest,10);
 		    }
 		    for (i in localStorage) {
