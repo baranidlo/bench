@@ -1,0 +1,6596 @@
+{
+  "tournament": {
+    "date": "2018-04-21", 
+    "format": "Standard - 100 Point Dogfight", 
+    "id": 4745, 
+    "name": "System Open Series Italy 2018", 
+    "players": [
+      {
+        "mov": 214, 
+        "name": "Alessandro Paro", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.28"
+      }, 
+      {
+        "mov": 242, 
+        "name": "Matteo Bennati", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 243, 
+        "name": "Simon Tournay", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 247, 
+        "name": "Micaela Raiteri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 248, 
+        "name": "David Dez Garca", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 252, 
+        "name": "Lorenzo Pinna", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 254, 
+        "name": "Stephan Mller", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.22"
+      }, 
+      {
+        "mov": 254, 
+        "name": "Nicolas Vega", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 254, 
+        "name": "Andrea Molteni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 256, 
+        "name": "Eugenio Todino", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.64"
+      }, 
+      {
+        "mov": 256, 
+        "name": "Lorenzo Valcelli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 257, 
+        "name": "Jordi Mateu Diaz", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 261, 
+        "name": "Tth Benjmin", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 261, 
+        "name": "Alexandre Patout", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 264, 
+        "name": "Luca Galasso", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 264, 
+        "name": "Matteo Sereni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.72"
+      }, 
+      {
+        "mov": 239, 
+        "name": "Gianluca Di Legge", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 235, 
+        "name": "Marco Tocchi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 216, 
+        "name": "Giacomo Arosio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 221, 
+        "name": "Luigi Vecchione", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 222, 
+        "name": "Giulio Bettelli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 223, 
+        "name": "Dejan Seljak", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 225, 
+        "name": "Alessandro Smaniotto", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 226, 
+        "name": "Piotr Madej", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 228, 
+        "name": "Luca Volpato", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 229, 
+        "name": "Edoardo Marmorini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 229, 
+        "name": "Lara Santiago", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 229, 
+        "name": "Dario Olivieri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 229, 
+        "name": "Federico Scarpioni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 231, 
+        "name": "Alessandro de Bono", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 232, 
+        "name": "David Ametller Hueto", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 233, 
+        "name": "Davide Carlaccini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 234, 
+        "name": "Patrizio Doccisi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 268, 
+        "name": "Bob Dee", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 268, 
+        "name": "Lorenzo Santi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 293, 
+        "name": "Maciej Riedl", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.22"
+      }, 
+      {
+        "mov": 294, 
+        "name": "Mishary Al-Faris", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 294, 
+        "name": "Stefano Costanzo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.64"
+      }, 
+      {
+        "mov": 295, 
+        "name": "Federico Valenza", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 308, 
+        "name": "Tadej Mocnik", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.24"
+      }, 
+      {
+        "mov": 308, 
+        "name": "Pedro Villena Fernndez", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.28"
+      }, 
+      {
+        "mov": 315, 
+        "name": "Tommaso Landini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 317, 
+        "name": "Giovanni Di Rauso", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 319, 
+        "name": "Lionel Mller", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.22"
+      }, 
+      {
+        "mov": 325, 
+        "name": "Matteo Colombo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 336, 
+        "name": "Giovanni Marchi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 352, 
+        "name": "David Hovorka", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 374, 
+        "name": "Filippo Chionsini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 393, 
+        "name": "Alesandro Campos", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 233, 
+        "name": "Craig Barrett", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.65"
+      }, 
+      {
+        "mov": 292, 
+        "name": "Federico Bona", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.41"
+      }, 
+      {
+        "mov": 292, 
+        "name": "Alvise Gaspari", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 269, 
+        "name": "Aleksandra Lewandowska", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 270, 
+        "name": "Roberto Savino", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 271, 
+        "name": "Federico Martelli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.31"
+      }, 
+      {
+        "mov": 272, 
+        "name": "Zdenek Rajtr", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.28"
+      }, 
+      {
+        "mov": 272, 
+        "name": "Karolina Prokopova", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.30"
+      }, 
+      {
+        "mov": 272, 
+        "name": "Luca Mangia", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 275, 
+        "name": "Ramon Cifuentes Garcia", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 275, 
+        "name": "Pierpaolo Casablanca", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 278, 
+        "name": "Matteo Brasanti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.36"
+      }, 
+      {
+        "mov": 279, 
+        "name": "Daniel Maier", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 282, 
+        "name": "Marco Pividori", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 286, 
+        "name": "Miguel Cerezo Aparicio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 287, 
+        "name": "Michele Alfredo Zanco", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 288, 
+        "name": "Riccardo Gragnola", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 289, 
+        "name": "Giulio Vezzani", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.31"
+      }, 
+      {
+        "mov": 308, 
+        "name": "Michael Parkinson", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 212, 
+        "name": "Glenn Coulthard", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 0, 
+        "name": "Alberto Maria Pollastrini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 91, 
+        "name": "Johanna Reichert", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 92, 
+        "name": "Ian Colombo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 99, 
+        "name": "Alessandro Sapone", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.55"
+      }, 
+      {
+        "mov": 101, 
+        "name": "Sabina Kubas", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 101, 
+        "name": "Tomasz Pawlak", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 103, 
+        "name": "Francesco Gallareto", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 104, 
+        "name": "Mattia Scarsi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 107, 
+        "name": "Alban Trinchero", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.59"
+      }, 
+      {
+        "mov": 109, 
+        "name": "Simone Pagliai", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 109, 
+        "name": "Adrian Zurita", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 110, 
+        "name": "Mikolaj Szenk", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.63"
+      }, 
+      {
+        "mov": 114, 
+        "name": "Luca Medda", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 114, 
+        "name": "Paolo Fedeli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 122, 
+        "name": "Daniele Patruno", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 123, 
+        "name": "Vicentini Simone", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 84, 
+        "name": "Federico Sirri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 83, 
+        "name": "Stefano Zannoni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 0, 
+        "name": "Nicola Panizzieri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 16, 
+        "name": "Diego D'Arrigo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 26, 
+        "name": "Francesco Bellina", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 27, 
+        "name": "Radoslaw Kierzkowski", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 48, 
+        "name": "Claudio Pozzoni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 51, 
+        "name": "Alessandro Sacchi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 53, 
+        "name": "Carlos Fernndez", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 54, 
+        "name": "Alessandro Parmigiani", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 55, 
+        "name": "Juan Carlos Mas", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 59, 
+        "name": "Giancarlo Basile", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 59, 
+        "name": "Davide Prezioso", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 65, 
+        "name": "Giacomo Canali", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 67, 
+        "name": "Adriano Piombo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 71, 
+        "name": "Tony Petriconi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.55"
+      }, 
+      {
+        "mov": 78, 
+        "name": "Jonathan Biondi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 123, 
+        "name": "Stefan Winkler", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 143, 
+        "name": "Luca Pacaccio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 175, 
+        "name": "Dario Bocchetti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.31"
+      }, 
+      {
+        "mov": 178, 
+        "name": "Luca Sacchi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.22"
+      }, 
+      {
+        "mov": 179, 
+        "name": "Alessio Bagnaso", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 179, 
+        "name": "Adriano Grassi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 186, 
+        "name": "Mariavittoria Flowers Ghezzi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 188, 
+        "name": "Jnos Rafay", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 197, 
+        "name": "Danilo Milani", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 199, 
+        "name": "Lloyd Boman", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.24"
+      }, 
+      {
+        "mov": 199, 
+        "name": "Marco Desco", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 200, 
+        "name": "William Di Iorio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 200, 
+        "name": "Nicole Pilotti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.64"
+      }, 
+      {
+        "mov": 203, 
+        "name": "Albert Maresma Ridorsa", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 204, 
+        "name": "Halil Kardiali", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 206, 
+        "name": "Buniato Matteo", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.22"
+      }, 
+      {
+        "mov": 208, 
+        "name": "Flavio Ambrosio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 170, 
+        "name": "Montserrat Hernandez Anguila", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 168, 
+        "name": "Janne Niinivaara", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 150, 
+        "name": "Flavio Marano", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 161, 
+        "name": "Benedikt Link", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 166, 
+        "name": "PatRys Gesiak", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 169, 
+        "name": "Elmo Barrrera Alvarez", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 169, 
+        "name": "Andrea Puglia", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.75"
+      }, 
+      {
+        "mov": 170, 
+        "name": "Emanuele Lorenzi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 183, 
+        "name": "Lukasz Poczesny", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 190, 
+        "name": "Bozidar Stamenovic", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 200, 
+        "name": "Manuel Vicente Lorente", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 278, 
+        "name": "Italo Spezzamonte", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.59"
+      }, 
+      {
+        "mov": 121, 
+        "name": "Salvador Rivas Rodriguez", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 154, 
+        "name": "Lorenzo Valle", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.28"
+      }, 
+      {
+        "mov": 162, 
+        "name": "Mattia Largher", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 164, 
+        "name": "Martin Kdoul", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.37"
+      }, 
+      {
+        "mov": 167, 
+        "name": "Alejandro Asensio", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 211, 
+        "name": "Matteo Tani", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.39"
+      }, 
+      {
+        "mov": 723, 
+        "name": "Carlo Peano", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 557, 
+        "name": "Stefano Rossi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 537, 
+        "name": "Fantini Federico", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.41"
+      }, 
+      {
+        "mov": 525, 
+        "name": "Stefano Freti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 501, 
+        "name": "Federico Bostrenghi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.48"
+      }, 
+      {
+        "mov": 501, 
+        "name": "Oriol Barns", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 498, 
+        "name": "Marco Peloni", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 494, 
+        "name": "Dante Stefanucci", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 267, 
+        "name": "Iolanda Paolini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 1, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 454, 
+        "name": "Nicol Guadagnini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 439, 
+        "name": "Lorenzo Becchetti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.43"
+      }, 
+      {
+        "mov": 513, 
+        "name": "Seb Brady", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 562, 
+        "name": "Dariusz Butanowicz", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 565, 
+        "name": "Michal Bobrowski", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.45"
+      }, 
+      {
+        "mov": 648, 
+        "name": "Matt Button", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 642, 
+        "name": "Wojciech Pisarek", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.43"
+      }, 
+      {
+        "mov": 629, 
+        "name": "David Lozano", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 627, 
+        "name": "Michal Paluch", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.41"
+      }, 
+      {
+        "mov": 126, 
+        "name": "Marco de Scordilli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 0, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 690, 
+        "name": "Ruben Barrio Guerrero", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 609, 
+        "name": "Bernd Vihan", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 596, 
+        "name": "Valerio de Lucia", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 595, 
+        "name": "Dario Calandra", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.35"
+      }, 
+      {
+        "mov": 590, 
+        "name": "Gianluca Targhini", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.45"
+      }, 
+      {
+        "mov": 565, 
+        "name": "Damjan Makuc", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 3, 
+        "sos": "0.51"
+      }, 
+      {
+        "mov": 488, 
+        "name": "Andrea Pensa", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.33"
+      }, 
+      {
+        "mov": 473, 
+        "name": "Patrick Partesotti", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.62"
+      }, 
+      {
+        "mov": 373, 
+        "name": "Joel Guillamon Baxauli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 426, 
+        "name": "Xavier Guerrero", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 418, 
+        "name": "Erik Lindqvist", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.36"
+      }, 
+      {
+        "mov": 426, 
+        "name": "Phil GC", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 376, 
+        "name": "Federico Martin", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 380, 
+        "name": "Maccario Napolitano Yuri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.40"
+      }, 
+      {
+        "mov": 384, 
+        "name": "Tommaso Castagnoli", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.38"
+      }, 
+      {
+        "mov": 387, 
+        "name": "Rafal Naglik", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.46"
+      }, 
+      {
+        "mov": 410, 
+        "name": "Luigi Jacopo Santa Maria", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.45"
+      }, 
+      {
+        "mov": 361, 
+        "name": "Robert Gogacz", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.38"
+      }, 
+      {
+        "mov": 428, 
+        "name": "Colm Browne", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 440, 
+        "name": "Juan Arrebola Campos", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 312, 
+        "name": "Paul Kohl", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.40"
+      }, 
+      {
+        "mov": 314, 
+        "name": "Massimo Del Pin", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.60"
+      }, 
+      {
+        "mov": 320, 
+        "name": "Dario Schembri", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.52"
+      }, 
+      {
+        "mov": 466, 
+        "name": "Damian Drzystek", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.46"
+      }, 
+      {
+        "mov": 461, 
+        "name": "Fabio Tiraboschi", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.45"
+      }, 
+      {
+        "mov": 457, 
+        "name": "Thomas Strassmayer", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 452, 
+        "name": "Maciej Paraszczak", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 323, 
+        "name": "Gary Ashbolt", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 335, 
+        "name": "Michael Frochaux", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 416, 
+        "name": "Sascha Glitsch", 
+        "rank": {
+          "swiss": 0
+        }, 
+        "score": 2, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 997, 
+        "name": "Carlo Tozzi", 
+        "rank": {
+          "swiss": 1
+        }, 
+        "score": 6, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 996, 
+        "name": "Bartosz Ken Wojcicki", 
+        "rank": {
+          "swiss": 2
+        }, 
+        "score": 6, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 957, 
+        "name": "Jack Mooney", 
+        "rank": {
+          "swiss": 3
+        }, 
+        "score": 6, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 953, 
+        "name": "Schmas Marco", 
+        "rank": {
+          "swiss": 4
+        }, 
+        "score": 6, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 823, 
+        "name": "Alessandro Mazzi", 
+        "rank": {
+          "swiss": 5
+        }, 
+        "score": 6, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 1019, 
+        "name": "Marco Turchiano", 
+        "rank": {
+          "swiss": 6
+        }, 
+        "score": 5, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 969, 
+        "name": "Marco Crivaro", 
+        "rank": {
+          "swiss": 7
+        }, 
+        "score": 5, 
+        "sos": "0.51"
+      }, 
+      {
+        "mov": 958, 
+        "name": "Off Jenkins", 
+        "rank": {
+          "swiss": 8
+        }, 
+        "score": 5, 
+        "sos": "0.60"
+      }, 
+      {
+        "mov": 936, 
+        "name": "Lorenzo Marasca", 
+        "rank": {
+          "swiss": 9
+        }, 
+        "score": 5, 
+        "sos": "0.69"
+      }, 
+      {
+        "mov": 923, 
+        "name": "Alessandro Marmorini", 
+        "rank": {
+          "swiss": 10
+        }, 
+        "score": 5, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 916, 
+        "name": "Roberto Pezzutto", 
+        "rank": {
+          "swiss": 11
+        }, 
+        "score": 5, 
+        "sos": "0.52"
+      }, 
+      {
+        "mov": 914, 
+        "name": "Marc Martinez Satorres", 
+        "rank": {
+          "swiss": 12
+        }, 
+        "score": 5, 
+        "sos": "0.60"
+      }, 
+      {
+        "mov": 908, 
+        "name": "Steffen Khler", 
+        "rank": {
+          "swiss": 13
+        }, 
+        "score": 5, 
+        "sos": "0.62"
+      }, 
+      {
+        "mov": 900, 
+        "name": "Denny Provenzano Ignazio", 
+        "rank": {
+          "swiss": 14
+        }, 
+        "score": 5, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 898, 
+        "name": "Alex Ceccaroni", 
+        "rank": {
+          "swiss": 15
+        }, 
+        "score": 5, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 878, 
+        "name": "Archibald Zimonyi", 
+        "rank": {
+          "swiss": 16
+        }, 
+        "score": 5, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 875, 
+        "name": "Adam Shipley", 
+        "rank": {
+          "swiss": 17
+        }, 
+        "score": 5, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 841, 
+        "name": "Bogdan Andrei Anton", 
+        "rank": {
+          "swiss": 18
+        }, 
+        "score": 5, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 832, 
+        "name": "Filip Drnovsek Zorko", 
+        "rank": {
+          "swiss": 19
+        }, 
+        "score": 5, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 823, 
+        "name": "Marcello Beccati", 
+        "rank": {
+          "swiss": 20
+        }, 
+        "score": 5, 
+        "sos": "0.62"
+      }, 
+      {
+        "mov": 807, 
+        "name": "Alessandro Zaramella", 
+        "rank": {
+          "swiss": 21
+        }, 
+        "score": 5, 
+        "sos": "0.66"
+      }, 
+      {
+        "mov": 801, 
+        "name": "Dale Cromwell", 
+        "rank": {
+          "swiss": 22
+        }, 
+        "score": 5, 
+        "sos": "0.69"
+      }, 
+      {
+        "mov": 800, 
+        "name": "Francesco Tiselli", 
+        "rank": {
+          "swiss": 23
+        }, 
+        "score": 5, 
+        "sos": "0.62"
+      }, 
+      {
+        "mov": 787, 
+        "name": "Yann LAUVERGNE", 
+        "rank": {
+          "swiss": 24
+        }, 
+        "score": 5, 
+        "sos": "0.52"
+      }, 
+      {
+        "mov": 774, 
+        "name": "Adrian Chouquot", 
+        "rank": {
+          "swiss": 25
+        }, 
+        "score": 5, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 767, 
+        "name": "Fitzgerald Ferrando", 
+        "rank": {
+          "swiss": 26
+        }, 
+        "score": 5, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 750, 
+        "name": "Mattia Molinero", 
+        "rank": {
+          "swiss": 27
+        }, 
+        "score": 5, 
+        "sos": "0.59"
+      }, 
+      {
+        "mov": 724, 
+        "name": "Andrea Novati", 
+        "rank": {
+          "swiss": 28
+        }, 
+        "score": 5, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 712, 
+        "name": "Christian Wode", 
+        "rank": {
+          "swiss": 29
+        }, 
+        "score": 5, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 702, 
+        "name": "Christian Setik", 
+        "rank": {
+          "swiss": 30
+        }, 
+        "score": 5, 
+        "sos": "0.65"
+      }, 
+      {
+        "mov": 904, 
+        "name": "Filippo Fioroni", 
+        "rank": {
+          "swiss": 31
+        }, 
+        "score": 4, 
+        "sos": "0.46"
+      }, 
+      {
+        "mov": 894, 
+        "name": "Hermes Maxime", 
+        "rank": {
+          "swiss": 32
+        }, 
+        "score": 4, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 855, 
+        "name": "Milan Avramovic", 
+        "rank": {
+          "swiss": 33
+        }, 
+        "score": 4, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 848, 
+        "name": "Mrton Kenessey", 
+        "rank": {
+          "swiss": 34
+        }, 
+        "score": 4, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 833, 
+        "name": "Pawel Rojewski", 
+        "rank": {
+          "swiss": 35
+        }, 
+        "score": 4, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 831, 
+        "name": "Antoine Colomb", 
+        "rank": {
+          "swiss": 36
+        }, 
+        "score": 4, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 814, 
+        "name": "Nicol Cuzzocrea", 
+        "rank": {
+          "swiss": 37
+        }, 
+        "score": 4, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 792, 
+        "name": "Andrei Voinescu", 
+        "rank": {
+          "swiss": 38
+        }, 
+        "score": 4, 
+        "sos": "0.68"
+      }, 
+      {
+        "mov": 787, 
+        "name": "Samuele Rasulo", 
+        "rank": {
+          "swiss": 39
+        }, 
+        "score": 4, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 772, 
+        "name": "Domingo Rodriguez", 
+        "rank": {
+          "swiss": 40
+        }, 
+        "score": 4, 
+        "sos": "0.47"
+      }, 
+      {
+        "mov": 762, 
+        "name": "Aritz Lopategi", 
+        "rank": {
+          "swiss": 41
+        }, 
+        "score": 4, 
+        "sos": "0.43"
+      }, 
+      {
+        "mov": 753, 
+        "name": "Mattia Vianello", 
+        "rank": {
+          "swiss": 42
+        }, 
+        "score": 4, 
+        "sos": "0.41"
+      }, 
+      {
+        "mov": 751, 
+        "name": "Gonzalo Sanchez", 
+        "rank": {
+          "swiss": 43
+        }, 
+        "score": 4, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 727, 
+        "name": "Krzysztof Trojanowski", 
+        "rank": {
+          "swiss": 44
+        }, 
+        "score": 4, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 727, 
+        "name": "Ivan Verdera Igeo", 
+        "rank": {
+          "swiss": 45
+        }, 
+        "score": 4, 
+        "sos": "0.43"
+      }, 
+      {
+        "mov": 721, 
+        "name": "Mirko Petriconi", 
+        "rank": {
+          "swiss": 46
+        }, 
+        "score": 4, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 718, 
+        "name": "Mirco Cleva", 
+        "rank": {
+          "swiss": 47
+        }, 
+        "score": 4, 
+        "sos": "0.52"
+      }, 
+      {
+        "mov": 706, 
+        "name": "Sergio Alvarez", 
+        "rank": {
+          "swiss": 48
+        }, 
+        "score": 4, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 700, 
+        "name": "Marco Rossetti", 
+        "rank": {
+          "swiss": 49
+        }, 
+        "score": 4, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 693, 
+        "name": "Sebastian Sanchez Contreras", 
+        "rank": {
+          "swiss": 50
+        }, 
+        "score": 4, 
+        "sos": "0.52"
+      }, 
+      {
+        "mov": 689, 
+        "name": "Fabio Cortini", 
+        "rank": {
+          "swiss": 51
+        }, 
+        "score": 4, 
+        "sos": "0.77"
+      }, 
+      {
+        "mov": 687, 
+        "name": "Tomasz Zelazko", 
+        "rank": {
+          "swiss": 52
+        }, 
+        "score": 4, 
+        "sos": "0.64"
+      }, 
+      {
+        "mov": 673, 
+        "name": "Viktor Kuzmin", 
+        "rank": {
+          "swiss": 53
+        }, 
+        "score": 4, 
+        "sos": "0.60"
+      }, 
+      {
+        "mov": 669, 
+        "name": "Laurence Moore", 
+        "rank": {
+          "swiss": 54
+        }, 
+        "score": 4, 
+        "sos": "0.46"
+      }, 
+      {
+        "mov": 664, 
+        "name": "Liborio Di Vincenzo", 
+        "rank": {
+          "swiss": 55
+        }, 
+        "score": 4, 
+        "sos": "0.61"
+      }, 
+      {
+        "mov": 659, 
+        "name": "Davide Morselli", 
+        "rank": {
+          "swiss": 56
+        }, 
+        "score": 4, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 657, 
+        "name": "Michael Schnoedt", 
+        "rank": {
+          "swiss": 57
+        }, 
+        "score": 4, 
+        "sos": "0.68"
+      }, 
+      {
+        "mov": 649, 
+        "name": "Leonardo D'Amato", 
+        "rank": {
+          "swiss": 58
+        }, 
+        "score": 4, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 645, 
+        "name": "Alessandro Piscini", 
+        "rank": {
+          "swiss": 59
+        }, 
+        "score": 4, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 629, 
+        "name": "Ruben Sedano", 
+        "rank": {
+          "swiss": 60
+        }, 
+        "score": 4, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 626, 
+        "name": "Alessandro Raiteri", 
+        "rank": {
+          "swiss": 61
+        }, 
+        "score": 4, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 626, 
+        "name": "Marcelo Soto", 
+        "rank": {
+          "swiss": 62
+        }, 
+        "score": 4, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 619, 
+        "name": "Franck Pittiloni", 
+        "rank": {
+          "swiss": 63
+        }, 
+        "score": 4, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 616, 
+        "name": "Alessio Lingua", 
+        "rank": {
+          "swiss": 64
+        }, 
+        "score": 4, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 614, 
+        "name": "Francesco Benciolini", 
+        "rank": {
+          "swiss": 65
+        }, 
+        "score": 4, 
+        "sos": "0.64"
+      }, 
+      {
+        "mov": 545, 
+        "name": "Karlos Viana Kalipo", 
+        "rank": {
+          "swiss": 66
+        }, 
+        "score": 4, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 532, 
+        "name": "Victoria Raiteri", 
+        "rank": {
+          "swiss": 67
+        }, 
+        "score": 4, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 782, 
+        "name": "Nicolas Durand", 
+        "rank": {
+          "swiss": 68
+        }, 
+        "score": 3, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 723, 
+        "name": "Radu-Cristian Puhalschi", 
+        "rank": {
+          "swiss": 69
+        }, 
+        "score": 3, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 673, 
+        "name": "Buffiere Pierre", 
+        "rank": {
+          "swiss": 70
+        }, 
+        "score": 3, 
+        "sos": "0.59"
+      }, 
+      {
+        "mov": 655, 
+        "name": "Stefano Terminiello", 
+        "rank": {
+          "swiss": 71
+        }, 
+        "score": 3, 
+        "sos": "0.60"
+      }, 
+      {
+        "mov": 628, 
+        "name": "Juan del Ro", 
+        "rank": {
+          "swiss": 72
+        }, 
+        "score": 3, 
+        "sos": "0.67"
+      }, 
+      {
+        "mov": 621, 
+        "name": "Alessio Cialli", 
+        "rank": {
+          "swiss": 73
+        }, 
+        "score": 3, 
+        "sos": "0.43"
+      }, 
+      {
+        "mov": 619, 
+        "name": "Giuseppe Catanesi", 
+        "rank": {
+          "swiss": 74
+        }, 
+        "score": 3, 
+        "sos": "0.46"
+      }, 
+      {
+        "mov": 615, 
+        "name": "Giacomo Pasquini", 
+        "rank": {
+          "swiss": 75
+        }, 
+        "score": 3, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 608, 
+        "name": "Phill Blackmore", 
+        "rank": {
+          "swiss": 76
+        }, 
+        "score": 3, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 589, 
+        "name": "Marco Nocera", 
+        "rank": {
+          "swiss": 77
+        }, 
+        "score": 3, 
+        "sos": "0.58"
+      }, 
+      {
+        "mov": 561, 
+        "name": "Matteo Ruffilli", 
+        "rank": {
+          "swiss": 78
+        }, 
+        "score": 3, 
+        "sos": "0.54"
+      }, 
+      {
+        "mov": 554, 
+        "name": "Brendan Dougherty", 
+        "rank": {
+          "swiss": 79
+        }, 
+        "score": 3, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 546, 
+        "name": "Vincenzo Cimabue", 
+        "rank": {
+          "swiss": 80
+        }, 
+        "score": 3, 
+        "sos": "0.42"
+      }, 
+      {
+        "mov": 544, 
+        "name": "Fabio Gasparini", 
+        "rank": {
+          "swiss": 81
+        }, 
+        "score": 3, 
+        "sos": "0.49"
+      }, 
+      {
+        "mov": 525, 
+        "name": "Marco Carone", 
+        "rank": {
+          "swiss": 82
+        }, 
+        "score": 3, 
+        "sos": "0.56"
+      }, 
+      {
+        "mov": 508, 
+        "name": "Luca Gubernati", 
+        "rank": {
+          "swiss": 83
+        }, 
+        "score": 3, 
+        "sos": "0.59"
+      }, 
+      {
+        "mov": 507, 
+        "name": "Luis Casass Moya", 
+        "rank": {
+          "swiss": 84
+        }, 
+        "score": 3, 
+        "sos": "0.57"
+      }, 
+      {
+        "mov": 466, 
+        "name": "Adri Gambin Molina", 
+        "rank": {
+          "swiss": 85
+        }, 
+        "score": 3, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 405, 
+        "name": "Ricardo Panella", 
+        "rank": {
+          "swiss": 86
+        }, 
+        "score": 3, 
+        "sos": "0.50"
+      }, 
+      {
+        "mov": 572, 
+        "name": "Giovanni Baccara", 
+        "rank": {
+          "swiss": 87
+        }, 
+        "score": 2, 
+        "sos": "0.53"
+      }, 
+      {
+        "mov": 472, 
+        "name": "Giacomo Tarlini", 
+        "rank": {
+          "swiss": 88
+        }, 
+        "score": 2, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 442, 
+        "name": "Johnny Orsolin", 
+        "rank": {
+          "swiss": 89
+        }, 
+        "score": 2, 
+        "sos": "0.44"
+      }, 
+      {
+        "mov": 395, 
+        "name": "Christian Repetto", 
+        "rank": {
+          "swiss": 90
+        }, 
+        "score": 2, 
+        "sos": "0.49"
+      }
+    ], 
+    "round_length": 75, 
+    "rounds": [
+      {
+        "matches": [
+          {
+            "player1": "Carlos Fernndez", 
+            "player1points": 27, 
+            "player2": "Karolina Prokopova", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Bagnaso", 
+            "player1points": 0, 
+            "player2": "Nicol Cuzzocrea", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alban Trinchero", 
+            "player1points": 22, 
+            "player2": "Marco Turchiano", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Buffiere Pierre", 
+            "player1points": 100, 
+            "player2": "Lorenzo Becchetti", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Molteni", 
+            "player1points": 66, 
+            "player2": "Dale Cromwell", 
+            "player2points": 67, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luigi Vecchione", 
+            "player1points": 62, 
+            "player2": "Lionel Mller", 
+            "player2points": 51, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Schmas Marco", 
+            "player1points": 100, 
+            "player2": "Jonathan Biondi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Volpato", 
+            "player1points": 30, 
+            "player2": "Marco Rossetti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Wojciech Pisarek", 
+            "player1points": 100, 
+            "player2": "Giacomo Canali", 
+            "player2points": 47, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Calandra", 
+            "player1points": 32, 
+            "player2": "Stefano Costanzo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Domingo Rodriguez", 
+            "player1points": 100, 
+            "player2": "Janne Niinivaara", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Novati", 
+            "player1points": 100, 
+            "player2": "Diego D'Arrigo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Danilo Milani", 
+            "player1points": 32, 
+            "player2": "Christian Setik", 
+            "player2points": 75, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Tarlini", 
+            "player1points": 55, 
+            "player2": "Ricardo Panella", 
+            "player2points": 78, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Tiraboschi", 
+            "player1points": 55, 
+            "player2": "Dario Schembri", 
+            "player2points": 70, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Galasso", 
+            "player1points": 0, 
+            "player2": "Carlo Tozzi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Molinero", 
+            "player1points": 72, 
+            "player2": "Alesandro Campos", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ivan Verdera Igeo", 
+            "player1points": 0, 
+            "player2": "Stefano Rossi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Sacchi", 
+            "player1points": 31, 
+            "player2": "Lorenzo Valcelli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Jordi Mateu Diaz", 
+            "player1points": 100, 
+            "player2": "Stefano Zannoni", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Valenza", 
+            "player1points": 68, 
+            "player2": "Giuseppe Catanesi", 
+            "player2points": 37, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mishary Al-Faris", 
+            "player1points": 54, 
+            "player2": "Jack Mooney", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrei Voinescu", 
+            "player1points": 100, 
+            "player2": "Maccario Napolitano Yuri", 
+            "player2points": 25, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Sacchi", 
+            "player1points": 26, 
+            "player2": "Edoardo Marmorini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mariavittoria Flowers Ghezzi", 
+            "player1points": 76, 
+            "player2": "PatRys Gesiak", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fantini Federico", 
+            "player1points": 100, 
+            "player2": "Tony Petriconi", 
+            "player2points": 71, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gonzalo Sanchez", 
+            "player1points": 100, 
+            "player2": "Roberto Savino", 
+            "player2points": 25, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stephan Mller", 
+            "player1points": 60, 
+            "player2": "Alejandro Asensio", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matt Button", 
+            "player1points": 100, 
+            "player2": "David Ametller Hueto", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Scarpioni", 
+            "player1points": 75, 
+            "player2": "David Dez Garca", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Martin", 
+            "player1points": 100, 
+            "player2": "Francesco Gallareto", 
+            "player2points": 61, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Radu-Cristian Puhalschi", 
+            "player1points": 100, 
+            "player2": "Laurence Moore", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "William Di Iorio", 
+            "player1points": 26, 
+            "player2": "Bogdan Andrei Anton", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bernd Vihan", 
+            "player1points": 28, 
+            "player2": "Dante Stefanucci", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Joel Guillamon Baxauli", 
+            "player1points": 100, 
+            "player2": "Alessandro Parmigiani", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Valerio de Lucia", 
+            "player1points": 55, 
+            "player2": "Benedikt Link", 
+            "player2points": 28, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Bostrenghi", 
+            "player1points": 100, 
+            "player2": "Davide Prezioso", 
+            "player2points": 59, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco de Scordilli", 
+            "player1points": 65, 
+            "player2": "Damian Drzystek", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Tani", 
+            "player1points": 44, 
+            "player2": "Victoria Raiteri", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Carlaccini", 
+            "player1points": 60, 
+            "player2": "Luis Casass Moya", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michal Paluch", 
+            "player1points": 27, 
+            "player2": "Tommaso Landini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Zaramella", 
+            "player1points": 100, 
+            "player2": "Samuele Rasulo", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Repetto", 
+            "player1points": 58, 
+            "player2": "Alessandro Paro", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Yann LAUVERGNE", 
+            "player1points": 38, 
+            "player2": "Italo Spezzamonte", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Karlos Viana Kalipo", 
+            "player1points": 99, 
+            "player2": "Emanuele Lorenzi", 
+            "player2points": 73, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gianluca Targhini", 
+            "player1points": 32, 
+            "player2": "Patrick Partesotti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Morselli", 
+            "player1points": 49, 
+            "player2": "Giovanni Baccara", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marc Martinez Satorres", 
+            "player1points": 100, 
+            "player2": "Alexandre Patout", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Cialli", 
+            "player1points": 0, 
+            "player2": "Stefano Terminiello", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pawel Rojewski", 
+            "player1points": 100, 
+            "player2": "Radoslaw Kierzkowski", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Eugenio Todino", 
+            "player1points": 70, 
+            "player2": "Leonardo D'Amato", 
+            "player2points": 29, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Piotr Madej", 
+            "player1points": 100, 
+            "player2": "Maciej Riedl", 
+            "player2points": 34, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Wode", 
+            "player1points": 100, 
+            "player2": "Adrian Zurita", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Santi", 
+            "player1points": 100, 
+            "player2": "Lorenzo Valle", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Franck Pittiloni", 
+            "player1points": 65, 
+            "player2": "Riccardo Gragnola", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Johanna Reichert", 
+            "player1points": 23, 
+            "player2": "Alessandro Raiteri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Pinna", 
+            "player1points": 16, 
+            "player2": "Tomasz Zelazko", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alex Ceccaroni", 
+            "player1points": 100, 
+            "player2": "Simone Pagliai", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Daniel Maier", 
+            "player1points": 32, 
+            "player2": "Sergio Alvarez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Tiselli", 
+            "player1points": 100, 
+            "player2": "Nicolas Durand", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Thomas Strassmayer", 
+            "player1points": 100, 
+            "player2": "Matteo Brasanti", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Patrizio Doccisi", 
+            "player1points": 100, 
+            "player2": "Juan Carlos Mas", 
+            "player2points": 23, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Tocchi", 
+            "player1points": 25, 
+            "player2": "Viktor Kuzmin", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Flavio Marano", 
+            "player1points": 47, 
+            "player2": "Michal Bobrowski", 
+            "player2points": 61, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Seb Brady", 
+            "player1points": 100, 
+            "player2": "Alberto Maria Pollastrini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phil GC", 
+            "player1points": 100, 
+            "player2": "Nicola Panizzieri", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Lozano", 
+            "player1points": 100, 
+            "player2": "Federico Martelli", 
+            "player2points": 43, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan del Ro", 
+            "player1points": 100, 
+            "player2": "Pedro Villena Fernndez", 
+            "player2points": 64, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Micaela Raiteri", 
+            "player1points": 78, 
+            "player2": "Colm Browne", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Montserrat Hernandez Anguila", 
+            "player1points": 78, 
+            "player2": "Vincenzo Cimabue", 
+            "player2points": 22, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Desco", 
+            "player1points": 36, 
+            "player2": "Marco Pividori", 
+            "player2points": 64, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Carone", 
+            "player1points": 38, 
+            "player2": "Bob Dee", 
+            "player2points": 29, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Crivaro", 
+            "player1points": 100, 
+            "player2": "Vicentini Simone", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dariusz Butanowicz", 
+            "player1points": 24, 
+            "player2": "Luca Gubernati", 
+            "player2points": 51, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Daniele Patruno", 
+            "player1points": 54, 
+            "player2": "Roberto Pezzutto", 
+            "player2points": 69, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Bellina", 
+            "player1points": 0, 
+            "player2": "Filippo Chionsini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adriano Grassi", 
+            "player1points": 0, 
+            "player2": "Fabio Gasparini", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Elmo Barrrera Alvarez", 
+            "player1points": 65, 
+            "player2": "Nicol Guadagnini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Smaniotto", 
+            "player1points": 59, 
+            "player2": "Fitzgerald Ferrando", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Mazzi", 
+            "player1points": 55, 
+            "player2": "Andrea Puglia", 
+            "player2points": 51, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giancarlo Basile", 
+            "player1points": 25, 
+            "player2": "Glenn Coulthard", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stefano Freti", 
+            "player1points": 100, 
+            "player2": "Luca Pacaccio", 
+            "player2points": 28, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Rafal Naglik", 
+            "player1points": 100, 
+            "player2": "Martin Kdoul", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Peano", 
+            "player1points": 100, 
+            "player2": "Zdenek Rajtr", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Sirri", 
+            "player1points": 27, 
+            "player2": "Sascha Glitsch", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Simon Tournay", 
+            "player1points": 38, 
+            "player2": "Ruben Sedano", 
+            "player2points": 50, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michael Parkinson", 
+            "player1points": 100, 
+            "player2": "Tadej Mocnik", 
+            "player2points": 60, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 100, 
+            "player2": "Ian Colombo", 
+            "player2points": 42, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Scarsi", 
+            "player1points": 53, 
+            "player2": "Maciej Paraszczak", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Archibald Zimonyi", 
+            "player1points": 100, 
+            "player2": "Dario Olivieri", 
+            "player2points": 34, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Pasquini", 
+            "player1points": 100, 
+            "player2": "Luca Medda", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Bocchetti", 
+            "player1points": 0, 
+            "player2": "Giovanni Di Rauso", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Oriol Barns", 
+            "player1points": 100, 
+            "player2": "Stefan Winkler", 
+            "player2points": 52, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aritz Lopategi", 
+            "player1points": 27, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sabina Kubas", 
+            "player1points": 0, 
+            "player2": "Johnny Orsolin", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Buniato Matteo", 
+            "player1points": 33, 
+            "player2": "Jnos Rafay", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Brendan Dougherty", 
+            "player1points": 0, 
+            "player2": "Mirko Petriconi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Cortini", 
+            "player1points": 74, 
+            "player2": "Tommaso Castagnoli", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcello Beccati", 
+            "player1points": 62, 
+            "player2": "Gary Ashbolt", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Claudio Pozzoni", 
+            "player1points": 25, 
+            "player2": "Iolanda Paolini", 
+            "player2points": 77, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Manuel Vicente Lorente", 
+            "player1points": 44, 
+            "player2": "Marco Nocera", 
+            "player2points": 74, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Hovorka", 
+            "player1points": 53, 
+            "player2": "Lorenzo Marasca", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Barrio Guerrero", 
+            "player1points": 100, 
+            "player2": "Tomasz Pawlak", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lloyd Boman", 
+            "player1points": 31, 
+            "player2": "Federico Bona", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Massimo Del Pin", 
+            "player1points": 33, 
+            "player2": "Luigi Jacopo Santa Maria", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Off Jenkins", 
+            "player1points": 100, 
+            "player2": "Mirco Cleva", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Erik Lindqvist", 
+            "player1points": 35, 
+            "player2": "Paolo Fedeli", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pierpaolo Casablanca", 
+            "player1points": 60, 
+            "player2": "Marcelo Soto", 
+            "player2points": 67, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lara Santiago", 
+            "player1points": 0, 
+            "player2": "Mrton Kenessey", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Benciolini", 
+            "player1points": 100, 
+            "player2": "Michele Alfredo Zanco", 
+            "player2points": 78, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giulio Vezzani", 
+            "player1points": 55, 
+            "player2": "Halil Kardiali", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Lingua", 
+            "player1points": 100, 
+            "player2": "Matteo Bennati", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Denny Provenzano Ignazio", 
+            "player1points": 100, 
+            "player2": "Alessandro de Bono", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mikolaj Szenk", 
+            "player1points": 31, 
+            "player2": "Mattia Vianello", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adrian Chouquot", 
+            "player1points": 100, 
+            "player2": "Gianluca Di Legge", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dejan Seljak", 
+            "player1points": 100, 
+            "player2": "Nicolas Vega", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 68, 
+            "player2": "Andrea Pensa", 
+            "player2points": 62, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giovanni Marchi", 
+            "player1points": 100, 
+            "player2": "Flavio Ambrosio", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Sereni", 
+            "player1points": 70, 
+            "player2": "Alessandro Piscini", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 100, 
+            "player2": "Adriano Piombo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Craig Barrett", 
+            "player1points": 63, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Miguel Cerezo Aparicio", 
+            "player1points": 43, 
+            "player2": "Salvador Rivas Rodriguez", 
+            "player2points": 43, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adri Gambin Molina", 
+            "player1points": 27, 
+            "player2": "Nicole Pilotti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan Arrebola Campos", 
+            "player1points": 100, 
+            "player2": "Robert Gogacz", 
+            "player2points": 34, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michael Frochaux", 
+            "player1points": 56, 
+            "player2": "Alvise Gaspari", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Mangia", 
+            "player1points": 52, 
+            "player2": "Filip Drnovsek Zorko", 
+            "player2points": 77, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Colombo", 
+            "player1points": 0, 
+            "player2": "Sebastian Sanchez Contreras", 
+            "player2points": 15, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Xavier Guerrero", 
+            "player1points": 31, 
+            "player2": "Bartosz Ken Wojcicki", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Peloni", 
+            "player1points": 100, 
+            "player2": "Ramon Cifuentes Garcia", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tth Benjmin", 
+            "player1points": 54, 
+            "player2": "Giacomo Arosio", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lukasz Poczesny", 
+            "player1points": 46, 
+            "player2": "Krzysztof Trojanowski", 
+            "player2points": 47, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Liborio Di Vincenzo", 
+            "player1points": 75, 
+            "player2": "Milan Avramovic", 
+            "player2points": 73, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adam Shipley", 
+            "player1points": 45, 
+            "player2": "Aleksandra Lewandowska", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Sapone", 
+            "player1points": 22, 
+            "player2": "Damjan Makuc", 
+            "player2points": 87, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Hermes Maxime", 
+            "player1points": 100, 
+            "player2": "Paul Kohl", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bozidar Stamenovic", 
+            "player1points": 0, 
+            "player2": "Mattia Largher", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Steffen Khler", 
+            "player1points": 100, 
+            "player2": "Giulio Bettelli", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Albert Maresma Ridorsa", 
+            "player1points": 0, 
+            "player2": "Antoine Colomb", 
+            "player2points": 100, 
+            "result": "win"
+          }
+        ], 
+        "round-number": 1, 
+        "round-type": "swiss"
+      }, 
+      {
+        "matches": [
+          {
+            "player1": "Erik Lindqvist", 
+            "player1points": 44, 
+            "player2": "Marco Nocera", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Barrio Guerrero", 
+            "player1points": 0, 
+            "player2": "Andrea Novati", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Damian Drzystek", 
+            "player1points": 100, 
+            "player2": "Salvador Rivas Rodriguez", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 82, 
+            "player2": "Halil Kardiali", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Setik", 
+            "player1points": 77, 
+            "player2": "Buffiere Pierre", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Vianello", 
+            "player1points": 77, 
+            "player2": "Karlos Viana Kalipo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luis Casass Moya", 
+            "player1points": 100, 
+            "player2": "Wojciech Pisarek", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Damjan Makuc", 
+            "player1points": 100, 
+            "player2": "Bogdan Andrei Anton", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Wode", 
+            "player1points": 73, 
+            "player2": "Radu-Cristian Puhalschi", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 100, 
+            "player2": "Lorenzo Valle", 
+            "player2points": 19, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michal Bobrowski", 
+            "player1points": 30, 
+            "player2": "Michael Parkinson", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Turchiano", 
+            "player1points": 100, 
+            "player2": "Giacomo Arosio", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Liborio Di Vincenzo", 
+            "player1points": 100, 
+            "player2": "Giovanni Baccara", 
+            "player2points": 73, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Colm Browne", 
+            "player1points": 37, 
+            "player2": "Bartosz Ken Wojcicki", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Viktor Kuzmin", 
+            "player1points": 0, 
+            "player2": "Marc Martinez Satorres", 
+            "player2points": 75, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Filip Drnovsek Zorko", 
+            "player1points": 100, 
+            "player2": "Glenn Coulthard", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Oriol Barns", 
+            "player1points": 100, 
+            "player2": "Michael Frochaux", 
+            "player2points": 52, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Thomas Strassmayer", 
+            "player1points": 32, 
+            "player2": "Steffen Khler", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Cortini", 
+            "player1points": 100, 
+            "player2": "David Lozano", 
+            "player2points": 41, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Eugenio Todino", 
+            "player1points": 56, 
+            "player2": "Alessandro Raiteri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcelo Soto", 
+            "player1points": 0, 
+            "player2": "Marcello Beccati", 
+            "player2points": 60, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicole Pilotti", 
+            "player1points": 27, 
+            "player2": "Yann LAUVERGNE", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Hermes Maxime", 
+            "player1points": 49, 
+            "player2": "Tomasz Zelazko", 
+            "player2points": 57, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ricardo Panella", 
+            "player1points": 46, 
+            "player2": "Karolina Prokopova", 
+            "player2points": 45, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fantini Federico", 
+            "player1points": 16, 
+            "player2": "Andrei Voinescu", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicol Cuzzocrea", 
+            "player1points": 100, 
+            "player2": "Archibald Zimonyi", 
+            "player2points": 35, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adam Shipley", 
+            "player1points": 100, 
+            "player2": "Juan Arrebola Campos", 
+            "player2points": 46, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Krzysztof Trojanowski", 
+            "player1points": 78, 
+            "player2": "Francesco Benciolini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan del Ro", 
+            "player1points": 100, 
+            "player2": "Giacomo Pasquini", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dejan Seljak", 
+            "player1points": 54, 
+            "player2": "Roberto Pezzutto", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Montserrat Hernandez Anguila", 
+            "player1points": 0, 
+            "player2": "Alex Ceccaroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Gasparini", 
+            "player1points": 0, 
+            "player2": "Gonzalo Sanchez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Edoardo Marmorini", 
+            "player1points": 0, 
+            "player2": "Dante Stefanucci", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adrian Chouquot", 
+            "player1points": 72, 
+            "player2": "Tommaso Landini", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Valenza", 
+            "player1points": 68, 
+            "player2": "Alessandro Zaramella", 
+            "player2points": 74, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Rafal Naglik", 
+            "player1points": 69, 
+            "player2": "Massimo Del Pin", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 67, 
+            "player2": "Piotr Madej", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Iolanda Paolini", 
+            "player1points": 38, 
+            "player2": "Matt Button", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Maciej Paraszczak", 
+            "player1points": 79, 
+            "player2": "Luca Gubernati", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dale Cromwell", 
+            "player1points": 100, 
+            "player2": "Fitzgerald Ferrando", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Repetto", 
+            "player1points": 0, 
+            "player2": "Federico Bostrenghi", 
+            "player2points": 64, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mirko Petriconi", 
+            "player1points": 100, 
+            "player2": "Patrizio Doccisi", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Molinero", 
+            "player1points": 100, 
+            "player2": "Matteo Sereni", 
+            "player2points": 72, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phil GC", 
+            "player1points": 27, 
+            "player2": "Francesco Tiselli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Carone", 
+            "player1points": 100, 
+            "player2": "Luigi Vecchione", 
+            "player2points": 29, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Victoria Raiteri", 
+            "player1points": 0, 
+            "player2": "Off Jenkins", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Pividori", 
+            "player1points": 54, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Jack Mooney", 
+            "player1points": 100, 
+            "player2": "Seb Brady", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Bona", 
+            "player1points": 64, 
+            "player2": "Patrick Partesotti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Rossetti", 
+            "player1points": 31, 
+            "player2": "Mrton Kenessey", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stefano Terminiello", 
+            "player1points": 100, 
+            "player2": "Giovanni Marchi", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pawel Rojewski", 
+            "player1points": 100, 
+            "player2": "Federico Scarpioni", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sascha Glitsch", 
+            "player1points": 52, 
+            "player2": "Stefano Rossi", 
+            "player2points": 82, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Peano", 
+            "player1points": 100, 
+            "player2": "Alessio Lingua", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Antoine Colomb", 
+            "player1points": 100, 
+            "player2": "Mattia Largher", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Franck Pittiloni", 
+            "player1points": 100, 
+            "player2": "Stefano Freti", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Craig Barrett", 
+            "player1points": 0, 
+            "player2": "Alessandro Mazzi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicol Guadagnini", 
+            "player1points": 0, 
+            "player2": "Marco Crivaro", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Valerio de Lucia", 
+            "player1points": 100, 
+            "player2": "Mariavittoria Flowers Ghezzi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alejandro Asensio", 
+            "player1points": 27, 
+            "player2": "Joel Guillamon Baxauli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sebastian Sanchez Contreras", 
+            "player1points": 55, 
+            "player2": "Giovanni Di Rauso", 
+            "player2points": 22, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Marasca", 
+            "player1points": 100, 
+            "player2": "Denny Provenzano Ignazio", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adriano Piombo", 
+            "player1points": 20, 
+            "player2": "Adri Gambin Molina", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Martin", 
+            "player1points": 32, 
+            "player2": "Carlo Tozzi", 
+            "player2points": 61, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Peloni", 
+            "player1points": 55, 
+            "player2": "Jnos Rafay", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Sedano", 
+            "player1points": 32, 
+            "player2": "Stefano Costanzo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Jordi Mateu Diaz", 
+            "player1points": 61, 
+            "player2": "Domingo Rodriguez", 
+            "player2points": 82, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Schmas Marco", 
+            "player1points": 100, 
+            "player2": "Lorenzo Valcelli", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Schembri", 
+            "player1points": 100, 
+            "player2": "Johnny Orsolin", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michal Paluch", 
+            "player1points": 68, 
+            "player2": "Alban Trinchero", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aleksandra Lewandowska", 
+            "player1points": 50, 
+            "player2": "Michele Alfredo Zanco", 
+            "player2points": 82, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro de Bono", 
+            "player1points": 100, 
+            "player2": "Gianluca Di Legge", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aritz Lopategi", 
+            "player1points": 100, 
+            "player2": "Diego D'Arrigo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Becchetti", 
+            "player1points": 62, 
+            "player2": "Italo Spezzamonte", 
+            "player2points": 57, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Xavier Guerrero", 
+            "player1points": 100, 
+            "player2": "Micaela Raiteri", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco de Scordilli", 
+            "player1points": 61, 
+            "player2": "Tommaso Castagnoli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Daniele Patruno", 
+            "player1points": 37, 
+            "player2": "Matteo Brasanti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Tani", 
+            "player1points": 76, 
+            "player2": "Jonathan Biondi", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tth Benjmin", 
+            "player1points": 100, 
+            "player2": "Ian Colombo", 
+            "player2points": 50, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Simone Pagliai", 
+            "player1points": 23, 
+            "player2": "Bob Dee", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Bocchetti", 
+            "player1points": 0, 
+            "player2": "Dariusz Butanowicz", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sabina Kubas", 
+            "player1points": 30, 
+            "player2": "Dario Olivieri", 
+            "player2points": 74, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Bagnaso", 
+            "player1points": 26, 
+            "player2": "PatRys Gesiak", 
+            "player2points": 24, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Vega", 
+            "player1points": 54, 
+            "player2": "Laurence Moore", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Mangia", 
+            "player1points": 100, 
+            "player2": "Benedikt Link", 
+            "player2points": 60, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gary Ashbolt", 
+            "player1points": 47, 
+            "player2": "Lukasz Poczesny", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Scarsi", 
+            "player1points": 22, 
+            "player2": "Giacomo Tarlini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tony Petriconi", 
+            "player1points": 0, 
+            "player2": "Alessio Cialli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Vincenzo Cimabue", 
+            "player1points": 52, 
+            "player2": "Tomasz Pawlak", 
+            "player2points": 22, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Tiraboschi", 
+            "player1points": 100, 
+            "player2": "Lloyd Boman", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ivan Verdera Igeo", 
+            "player1points": 100, 
+            "player2": "Claudio Pozzoni", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Johanna Reichert", 
+            "player1points": 0, 
+            "player2": "Luigi Jacopo Santa Maria", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adriano Grassi", 
+            "player1points": 0, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Bellina", 
+            "player1points": 26, 
+            "player2": "Flavio Ambrosio", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Dez Garca", 
+            "player1points": 100, 
+            "player2": "Stephan Mller", 
+            "player2points": 45, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Puglia", 
+            "player1points": 73, 
+            "player2": "Robert Gogacz", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alesandro Campos", 
+            "player1points": 100, 
+            "player2": "Giancarlo Basile", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Prezioso", 
+            "player1points": 0, 
+            "player2": "Alvise Gaspari", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Miguel Cerezo Aparicio", 
+            "player1points": 71, 
+            "player2": "Tadej Mocnik", 
+            "player2points": 19, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Hovorka", 
+            "player1points": 100, 
+            "player2": "Alessandro Parmigiani", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Buniato Matteo", 
+            "player1points": 0, 
+            "player2": "Riccardo Gragnola", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "William Di Iorio", 
+            "player1points": 100, 
+            "player2": "Carlos Fernndez", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Carlaccini", 
+            "player1points": 30, 
+            "player2": "Alessandro Piscini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Daniel Maier", 
+            "player1points": 29, 
+            "player2": "Marco Tocchi", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bernd Vihan", 
+            "player1points": 100, 
+            "player2": "Stefano Zannoni", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Paolo Fedeli", 
+            "player1points": 19, 
+            "player2": "Andrea Pensa", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Vicentini Simone", 
+            "player1points": 0, 
+            "player2": "Zdenek Rajtr", 
+            "player2points": 75, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Bennati", 
+            "player1points": 100, 
+            "player2": "Lionel Mller", 
+            "player2points": 46, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stefan Winkler", 
+            "player1points": 0, 
+            "player2": "Davide Morselli", 
+            "player2points": 79, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gianluca Targhini", 
+            "player1points": 100, 
+            "player2": "Andrea Molteni", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Albert Maresma Ridorsa", 
+            "player1points": 100, 
+            "player2": "Giulio Bettelli", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Samuele Rasulo", 
+            "player1points": 100, 
+            "player2": "Nicola Panizzieri", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giulio Vezzani", 
+            "player1points": 100, 
+            "player2": "Flavio Marano", 
+            "player2points": 33, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Sacchi", 
+            "player1points": 0, 
+            "player2": "Mirco Cleva", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Filippo Chionsini", 
+            "player1points": 32, 
+            "player2": "Sergio Alvarez", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Sirri", 
+            "player1points": 57, 
+            "player2": "Luca Volpato", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Radoslaw Kierzkowski", 
+            "player1points": 0, 
+            "player2": "Maccario Napolitano Yuri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Martin Kdoul", 
+            "player1points": 41, 
+            "player2": "Bozidar Stamenovic", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Durand", 
+            "player1points": 100, 
+            "player2": "Alessandro Paro", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ramon Cifuentes Garcia", 
+            "player1points": 100, 
+            "player2": "Luca Pacaccio", 
+            "player2points": 50, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Medda", 
+            "player1points": 47, 
+            "player2": "Danilo Milani", 
+            "player2points": 51, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Manuel Vicente Lorente", 
+            "player1points": 45, 
+            "player2": "Matteo Colombo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lara Santiago", 
+            "player1points": 29, 
+            "player2": "Leonardo D'Amato", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alexandre Patout", 
+            "player1points": 100, 
+            "player2": "Lorenzo Pinna", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Sapone", 
+            "player1points": 64, 
+            "player2": "Brendan Dougherty", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pierpaolo Casablanca", 
+            "player1points": 100, 
+            "player2": "Giacomo Canali", 
+            "player2points": 18, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Elmo Barrrera Alvarez", 
+            "player1points": 68, 
+            "player2": "Janne Niinivaara", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Milan Avramovic", 
+            "player1points": 100, 
+            "player2": "Adrian Zurita", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mikolaj Szenk", 
+            "player1points": 29, 
+            "player2": "Dario Calandra", 
+            "player2points": 50, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Ametller Hueto", 
+            "player1points": 100, 
+            "player2": "Alberto Maria Pollastrini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giuseppe Catanesi", 
+            "player1points": 100, 
+            "player2": "Roberto Savino", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Desco", 
+            "player1points": 63, 
+            "player2": "Pedro Villena Fernndez", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Galasso", 
+            "player1points": 100, 
+            "player2": "Luca Sacchi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Paul Kohl", 
+            "player1points": 100, 
+            "player2": "Juan Carlos Mas", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Smaniotto", 
+            "player1points": 100, 
+            "player2": "Lorenzo Santi", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Maciej Riedl", 
+            "player1points": 0, 
+            "player2": "Simon Tournay", 
+            "player2points": 41, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Emanuele Lorenzi", 
+            "player1points": 45, 
+            "player2": "Federico Martelli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Gallareto", 
+            "player1points": 13, 
+            "player2": "Mishary Al-Faris", 
+            "player2points": 71, 
+            "result": "win"
+          }
+        ], 
+        "round-number": 2, 
+        "round-type": "swiss"
+      }, 
+      {
+        "matches": [
+          {
+            "player1": "Domingo Rodriguez", 
+            "player1points": 29, 
+            "player2": "Francesco Benciolini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Marasca", 
+            "player1points": 100, 
+            "player2": "Karlos Viana Kalipo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Valerio de Lucia", 
+            "player1points": 56, 
+            "player2": "Ruben Sedano", 
+            "player2points": 56, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 100, 
+            "player2": "Oriol Barns", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Yann LAUVERGNE", 
+            "player1points": 69, 
+            "player2": "Sergio Alvarez", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicol Cuzzocrea", 
+            "player1points": 100, 
+            "player2": "Franck Pittiloni", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 22, 
+            "player2": "Matt Button", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Joel Guillamon Baxauli", 
+            "player1points": 54, 
+            "player2": "Jack Mooney", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Turchiano", 
+            "player1points": 100, 
+            "player2": "Stefano Rossi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Damjan Makuc", 
+            "player1points": 0, 
+            "player2": "Roberto Pezzutto", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 27, 
+            "player2": "Schmas Marco", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sebastian Sanchez Contreras", 
+            "player1points": 0, 
+            "player2": "Fabio Cortini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Damian Drzystek", 
+            "player1points": 37, 
+            "player2": "Christian Wode", 
+            "player2points": 65, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Peano", 
+            "player1points": 65, 
+            "player2": "Tomasz Zelazko", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dante Stefanucci", 
+            "player1points": 32, 
+            "player2": "Mattia Molinero", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michael Parkinson", 
+            "player1points": 35, 
+            "player2": "Federico Bostrenghi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Peloni", 
+            "player1points": 0, 
+            "player2": "Adam Shipley", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcello Beccati", 
+            "player1points": 0, 
+            "player2": "Adrian Chouquot", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Patrick Partesotti", 
+            "player1points": 31, 
+            "player2": "Christian Setik", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pawel Rojewski", 
+            "player1points": 75, 
+            "player2": "Gonzalo Sanchez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Schembri", 
+            "player1points": 31, 
+            "player2": "Mirko Petriconi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Liborio Di Vincenzo", 
+            "player1points": 54, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Tiselli", 
+            "player1points": 51, 
+            "player2": "Alessandro Mazzi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Rossetti", 
+            "player1points": 16, 
+            "player2": "Andrei Voinescu", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Antoine Colomb", 
+            "player1points": 29, 
+            "player2": "Marco Carone", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Raiteri", 
+            "player1points": 0, 
+            "player2": "Carlo Tozzi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Novati", 
+            "player1points": 47, 
+            "player2": "Maciej Paraszczak", 
+            "player2points": 47, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stefano Terminiello", 
+            "player1points": 32, 
+            "player2": "Alessandro Zaramella", 
+            "player2points": 75, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Filip Drnovsek Zorko", 
+            "player1points": 100, 
+            "player2": "Massimo Del Pin", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bartosz Ken Wojcicki", 
+            "player1points": 100, 
+            "player2": "Luis Casass Moya", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Off Jenkins", 
+            "player1points": 66, 
+            "player2": "Marco Nocera", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan del Ro", 
+            "player1points": 100, 
+            "player2": "Alex Ceccaroni", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marc Martinez Satorres", 
+            "player1points": 32, 
+            "player2": "Steffen Khler", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dale Cromwell", 
+            "player1points": 100, 
+            "player2": "Marco Crivaro", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ricardo Panella", 
+            "player1points": 0, 
+            "player2": "Robert Gogacz", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Morselli", 
+            "player1points": 37, 
+            "player2": "Federico Scarpioni", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Brasanti", 
+            "player1points": 0, 
+            "player2": "Mrton Kenessey", 
+            "player2points": 15, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Pasquini", 
+            "player1points": 100, 
+            "player2": "Dejan Seljak", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Arosio", 
+            "player1points": 70, 
+            "player2": "Leonardo D'Amato", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Albert Maresma Ridorsa", 
+            "player1points": 29, 
+            "player2": "Stefano Freti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pierpaolo Casablanca", 
+            "player1points": 0, 
+            "player2": "Fitzgerald Ferrando", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alesandro Campos", 
+            "player1points": 68, 
+            "player2": "Alessio Lingua", 
+            "player2points": 71, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Denny Provenzano Ignazio", 
+            "player1points": 100, 
+            "player2": "Mattia Largher", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Dez Garca", 
+            "player1points": 0, 
+            "player2": "Krzysztof Trojanowski", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Smaniotto", 
+            "player1points": 34, 
+            "player2": "Samuele Rasulo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Glenn Coulthard", 
+            "player1points": 45, 
+            "player2": "Maccario Napolitano Yuri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aritz Lopategi", 
+            "player1points": 100, 
+            "player2": "Lorenzo Valcelli", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phil GC", 
+            "player1points": 100, 
+            "player2": "Ramon Cifuentes Garcia", 
+            "player2points": 59, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Colm Browne", 
+            "player1points": 100, 
+            "player2": "Jnos Rafay", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Miguel Cerezo Aparicio", 
+            "player1points": 34, 
+            "player2": "Brendan Dougherty", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Wojciech Pisarek", 
+            "player1points": 100, 
+            "player2": "Alejandro Asensio", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Halil Kardiali", 
+            "player1points": 31, 
+            "player2": "Gary Ashbolt", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Janne Niinivaara", 
+            "player1points": 36, 
+            "player2": "Xavier Guerrero", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Bennati", 
+            "player1points": 64, 
+            "player2": "Paul Kohl", 
+            "player2points": 76, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicole Pilotti", 
+            "player1points": 0, 
+            "player2": "Dario Calandra", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Thomas Strassmayer", 
+            "player1points": 100, 
+            "player2": "Karolina Prokopova", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Rafal Naglik", 
+            "player1points": 100, 
+            "player2": "Luca Volpato", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giovanni Marchi", 
+            "player1points": 50, 
+            "player2": "Milan Avramovic", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Radu-Cristian Puhalschi", 
+            "player1points": 100, 
+            "player2": "Alessandro de Bono", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Tarlini", 
+            "player1points": 47, 
+            "player2": "Zdenek Rajtr", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Bagnaso", 
+            "player1points": 53, 
+            "player2": "Craig Barrett", 
+            "player2points": 76, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Simon Tournay", 
+            "player1points": 14, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adri Gambin Molina", 
+            "player1points": 100, 
+            "player2": "Federico Bona", 
+            "player2points": 59, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Viktor Kuzmin", 
+            "player1points": 64, 
+            "player2": "Stefano Costanzo", 
+            "player2points": 22, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tommaso Landini", 
+            "player1points": 61, 
+            "player2": "Federico Martin", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Piscini", 
+            "player1points": 31, 
+            "player2": "David Hovorka", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Lozano", 
+            "player1points": 100, 
+            "player2": "Martin Kdoul", 
+            "player2points": 28, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Gasparini", 
+            "player1points": 100, 
+            "player2": "Montserrat Hernandez Anguila", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Ametller Hueto", 
+            "player1points": 32, 
+            "player2": "Alessio Cialli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mirco Cleva", 
+            "player1points": 100, 
+            "player2": "Giovanni Di Rauso", 
+            "player2points": 50, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Vianello", 
+            "player1points": 100, 
+            "player2": "Riccardo Gragnola", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luigi Vecchione", 
+            "player1points": 32, 
+            "player2": "Nicol Guadagnini", 
+            "player2points": 51, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Eugenio Todino", 
+            "player1points": 59, 
+            "player2": "Bernd Vihan", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcelo Soto", 
+            "player1points": 100, 
+            "player2": "Matteo Sereni", 
+            "player2points": 52, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Danilo Milani", 
+            "player1points": 36, 
+            "player2": "Erik Lindqvist", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Hermes Maxime", 
+            "player1points": 100, 
+            "player2": "Tth Benjmin", 
+            "player2points": 57, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Vincenzo Cimabue", 
+            "player1points": 74, 
+            "player2": "Federico Valenza", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Colombo", 
+            "player1points": 0, 
+            "player2": "Luca Gubernati", 
+            "player2points": 15, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bob Dee", 
+            "player1points": 0, 
+            "player2": "Michal Paluch", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gianluca Targhini", 
+            "player1points": 100, 
+            "player2": "Salvador Rivas Rodriguez", 
+            "player2points": 21, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michele Alfredo Zanco", 
+            "player1points": 77, 
+            "player2": "Buffiere Pierre", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Flavio Ambrosio", 
+            "player1points": 34, 
+            "player2": "Archibald Zimonyi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Barrio Guerrero", 
+            "player1points": 100, 
+            "player2": "Marco Desco", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alvise Gaspari", 
+            "player1points": 16, 
+            "player2": "Michal Bobrowski", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Olivieri", 
+            "player1points": 51, 
+            "player2": "Dariusz Butanowicz", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mariavittoria Flowers Ghezzi", 
+            "player1points": 54, 
+            "player2": "Bogdan Andrei Anton", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Jordi Mateu Diaz", 
+            "player1points": 31, 
+            "player2": "Giuseppe Catanesi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Patrizio Doccisi", 
+            "player1points": 26, 
+            "player2": "Tommaso Castagnoli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fantini Federico", 
+            "player1points": 67, 
+            "player2": "Giulio Vezzani", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Tiraboschi", 
+            "player1points": 66, 
+            "player2": "Marco Tocchi", 
+            "player2points": 36, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luigi Jacopo Santa Maria", 
+            "player1points": 0, 
+            "player2": "Marco Pividori", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sascha Glitsch", 
+            "player1points": 100, 
+            "player2": "Piotr Madej", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Laurence Moore", 
+            "player1points": 49, 
+            "player2": "Iolanda Paolini", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Seb Brady", 
+            "player1points": 100, 
+            "player2": "Matteo Tani", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Durand", 
+            "player1points": 100, 
+            "player2": "William Di Iorio", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Filippo Chionsini", 
+            "player1points": 63, 
+            "player2": "Michael Frochaux", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Johnny Orsolin", 
+            "player1points": 100, 
+            "player2": "Alexandre Patout", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ivan Verdera Igeo", 
+            "player1points": 100, 
+            "player2": "Lorenzo Santi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Galasso", 
+            "player1points": 64, 
+            "player2": "Juan Arrebola Campos", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Mangia", 
+            "player1points": 57, 
+            "player2": "Lorenzo Becchetti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Edoardo Marmorini", 
+            "player1points": 55, 
+            "player2": "Victoria Raiteri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Martelli", 
+            "player1points": 0, 
+            "player2": "Christian Repetto", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mishary Al-Faris", 
+            "player1points": 49, 
+            "player2": "Andrea Pensa", 
+            "player2points": 67, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giovanni Baccara", 
+            "player1points": 100, 
+            "player2": "Adriano Piombo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lara Santiago", 
+            "player1points": 100, 
+            "player2": "Ian Colombo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Vega", 
+            "player1points": 100, 
+            "player2": "Flavio Marano", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Paro", 
+            "player1points": 100, 
+            "player2": "Benedikt Link", 
+            "player2points": 28, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Vicentini Simone", 
+            "player1points": 67, 
+            "player2": "Micaela Raiteri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Pacaccio", 
+            "player1points": 65, 
+            "player2": "Lorenzo Valle", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bozidar Stamenovic", 
+            "player1points": 0, 
+            "player2": "Gianluca Di Legge", 
+            "player2points": 71, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan Carlos Mas", 
+            "player1points": 32, 
+            "player2": "Lloyd Boman", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alban Trinchero", 
+            "player1points": 53, 
+            "player2": "Luca Sacchi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Canali", 
+            "player1points": 0, 
+            "player2": "Maciej Riedl", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Molteni", 
+            "player1points": 100, 
+            "player2": "Sabina Kubas", 
+            "player2points": 45, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Italo Spezzamonte", 
+            "player1points": 63, 
+            "player2": "Davide Carlaccini", 
+            "player2points": 69, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Scarsi", 
+            "player1points": 29, 
+            "player2": "Pedro Villena Fernndez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Bocchetti", 
+            "player1points": 100, 
+            "player2": "Alessandro Sacchi", 
+            "player2points": 25, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Diego D'Arrigo", 
+            "player1points": 16, 
+            "player2": "Lionel Mller", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Manuel Vicente Lorente", 
+            "player1points": 32, 
+            "player2": "Adriano Grassi", 
+            "player2points": 47, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Bellina", 
+            "player1points": 0, 
+            "player2": "Lorenzo Pinna", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Daniel Maier", 
+            "player1points": 66, 
+            "player2": "Stefan Winkler", 
+            "player2points": 16, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Elmo Barrrera Alvarez", 
+            "player1points": 36, 
+            "player2": "Giulio Bettelli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aleksandra Lewandowska", 
+            "player1points": 100, 
+            "player2": "Simone Pagliai", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adrian Zurita", 
+            "player1points": 29, 
+            "player2": "Buniato Matteo", 
+            "player2points": 46, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stephan Mller", 
+            "player1points": 49, 
+            "player2": "Emanuele Lorenzi", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tadej Mocnik", 
+            "player1points": 100, 
+            "player2": "Tomasz Pawlak", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Roberto Savino", 
+            "player1points": 100, 
+            "player2": "Luca Medda", 
+            "player2points": 18, 
+            "result": "win"
+          }
+        ], 
+        "round-number": 3, 
+        "round-type": "swiss"
+      }, 
+      {
+        "matches": [
+          {
+            "player1": "Lorenzo Marasca", 
+            "player1points": 100, 
+            "player2": "Andrei Voinescu", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Nocera", 
+            "player1points": 33, 
+            "player2": "Tomasz Zelazko", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Wode", 
+            "player1points": 0, 
+            "player2": "Jack Mooney", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Roberto Pezzutto", 
+            "player1points": 55, 
+            "player2": "Schmas Marco", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Novati", 
+            "player1points": 54, 
+            "player2": "Yann LAUVERGNE", 
+            "player2points": 23, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adrian Chouquot", 
+            "player1points": 0, 
+            "player2": "Christian Setik", 
+            "player2points": 17, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Sedano", 
+            "player1points": 100, 
+            "player2": "Marco Carone", 
+            "player2points": 19, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Turchiano", 
+            "player1points": 100, 
+            "player2": "Nicol Cuzzocrea", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Bostrenghi", 
+            "player1points": 31, 
+            "player2": "Alessandro Zaramella", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gonzalo Sanchez", 
+            "player1points": 48, 
+            "player2": "Dale Cromwell", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 100, 
+            "player2": "Mirko Petriconi", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Molinero", 
+            "player1points": 100, 
+            "player2": "Matt Button", 
+            "player2points": 46, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Steffen Khler", 
+            "player1points": 100, 
+            "player2": "Francesco Benciolini", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adam Shipley", 
+            "player1points": 27, 
+            "player2": "Fabio Cortini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan del Ro", 
+            "player1points": 32, 
+            "player2": "Carlo Tozzi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Mazzi", 
+            "player1points": 100, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 46, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Filip Drnovsek Zorko", 
+            "player1points": 37, 
+            "player2": "Bartosz Ken Wojcicki", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Cialli", 
+            "player1points": 32, 
+            "player2": "Alex Ceccaroni", 
+            "player2points": 62, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adri Gambin Molina", 
+            "player1points": 45, 
+            "player2": "Andrea Pensa", 
+            "player2points": 40, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gianluca Targhini", 
+            "player1points": 100, 
+            "player2": "Phil GC", 
+            "player2points": 58, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luis Casass Moya", 
+            "player1points": 25, 
+            "player2": "Milan Avramovic", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Vincenzo Cimabue", 
+            "player1points": 0, 
+            "player2": "Marc Martinez Satorres", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Tarlini", 
+            "player1points": 0, 
+            "player2": "Marco Crivaro", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Raiteri", 
+            "player1points": 100, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 76, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Damian Drzystek", 
+            "player1points": 24, 
+            "player2": "Alessio Lingua", 
+            "player2points": 65, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Johnny Orsolin", 
+            "player1points": 28, 
+            "player2": "Ivan Verdera Igeo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Archibald Zimonyi", 
+            "player1points": 100, 
+            "player2": "Sascha Glitsch", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Hermes Maxime", 
+            "player1points": 100, 
+            "player2": "Joel Guillamon Baxauli", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dante Stefanucci", 
+            "player1points": 64, 
+            "player2": "Juan Arrebola Campos", 
+            "player2points": 56, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Durand", 
+            "player1points": 62, 
+            "player2": "Denny Provenzano Ignazio", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Krzysztof Trojanowski", 
+            "player1points": 100, 
+            "player2": "Rafal Naglik", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Paul Kohl", 
+            "player1points": 0, 
+            "player2": "Ruben Barrio Guerrero", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 100, 
+            "player2": "Tommaso Castagnoli", 
+            "player2points": 19, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Viktor Kuzmin", 
+            "player1points": 100, 
+            "player2": "Domingo Rodriguez", 
+            "player2points": 22, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Liborio Di Vincenzo", 
+            "player1points": 100, 
+            "player2": "Maciej Paraszczak", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Oriol Barns", 
+            "player1points": 31, 
+            "player2": "Stefano Terminiello", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Piscini", 
+            "player1points": 100, 
+            "player2": "Karlos Viana Kalipo", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Victoria Raiteri", 
+            "player1points": 100, 
+            "player2": "Massimo Del Pin", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Erik Lindqvist", 
+            "player1points": 71, 
+            "player2": "Lorenzo Becchetti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Xavier Guerrero", 
+            "player1points": 67, 
+            "player2": "Samuele Rasulo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Martin", 
+            "player1points": 0, 
+            "player2": "Michal Paluch", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Gubernati", 
+            "player1points": 45, 
+            "player2": "Damjan Makuc", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Tiraboschi", 
+            "player1points": 29, 
+            "player2": "Fantini Federico", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Maccario Napolitano Yuri", 
+            "player1points": 0, 
+            "player2": "Marco Peloni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Calandra", 
+            "player1points": 0, 
+            "player2": "Sebastian Sanchez Contreras", 
+            "player2points": 58, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bernd Vihan", 
+            "player1points": 61, 
+            "player2": "Colm Browne", 
+            "player2points": 30, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gary Ashbolt", 
+            "player1points": 0, 
+            "player2": "Wojciech Pisarek", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcello Beccati", 
+            "player1points": 59, 
+            "player2": "Thomas Strassmayer", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Peano", 
+            "player1points": 56, 
+            "player2": "Valerio de Lucia", 
+            "player2points": 71, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Radu-Cristian Puhalschi", 
+            "player1points": 69, 
+            "player2": "Stefano Freti", 
+            "player2points": 73, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 54, 
+            "player2": "Bogdan Andrei Anton", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michael Frochaux", 
+            "player1points": 54, 
+            "player2": "Off Jenkins", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Gasparini", 
+            "player1points": 51, 
+            "player2": "Dariusz Butanowicz", 
+            "player2points": 59, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Patrick Partesotti", 
+            "player1points": 0, 
+            "player2": "Davide Morselli", 
+            "player2points": 10, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mrton Kenessey", 
+            "player1points": 100, 
+            "player2": "Laurence Moore", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Schembri", 
+            "player1points": 0, 
+            "player2": "Mirco Cleva", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Vianello", 
+            "player1points": 0, 
+            "player2": "Michal Bobrowski", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Antoine Colomb", 
+            "player1points": 100, 
+            "player2": "Christian Repetto", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sergio Alvarez", 
+            "player1points": 100, 
+            "player2": "Michael Parkinson", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giuseppe Catanesi", 
+            "player1points": 0, 
+            "player2": "Marco Rossetti", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Buffiere Pierre", 
+            "player1points": 70, 
+            "player2": "Leonardo D'Amato", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aritz Lopategi", 
+            "player1points": 0, 
+            "player2": "David Lozano", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcelo Soto", 
+            "player1points": 100, 
+            "player2": "Giovanni Baccara", 
+            "player2points": 52, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pawel Rojewski", 
+            "player1points": 100, 
+            "player2": "Giacomo Pasquini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Tiselli", 
+            "player1points": 47, 
+            "player2": "Luigi Jacopo Santa Maria", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Robert Gogacz", 
+            "player1points": 0, 
+            "player2": "Stefano Rossi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Brendan Dougherty", 
+            "player1points": 53, 
+            "player2": "Franck Pittiloni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Craig Barrett", 
+            "player1points": 0, 
+            "player2": "Nicol Guadagnini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fitzgerald Ferrando", 
+            "player1points": 100, 
+            "player2": "Seb Brady", 
+            "player2points": 59, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ricardo Panella", 
+            "player1points": null, 
+            "player2": "", 
+            "player2points": null, 
+            "result": "bye"
+          }
+        ], 
+        "round-number": 4, 
+        "round-type": "swiss"
+      }, 
+      {
+        "matches": [
+          {
+            "player1": "Andrea Novati", 
+            "player1points": 16, 
+            "player2": "Christian Setik", 
+            "player2points": 43, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 100, 
+            "player2": "Dale Cromwell", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Mazzi", 
+            "player1points": 100, 
+            "player2": "Marco Turchiano", 
+            "player2points": 96, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Schmas Marco", 
+            "player1points": 100, 
+            "player2": "Fabio Cortini", 
+            "player2points": 55, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tomasz Zelazko", 
+            "player1points": 27, 
+            "player2": "Jack Mooney", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Molinero", 
+            "player1points": 100, 
+            "player2": "Ruben Sedano", 
+            "player2points": 72, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Steffen Khler", 
+            "player1points": 68, 
+            "player2": "Alessandro Zaramella", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Marasca", 
+            "player1points": 68, 
+            "player2": "Bartosz Ken Wojcicki", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Tozzi", 
+            "player1points": 100, 
+            "player2": "Michal Paluch", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "David Lozano", 
+            "player1points": 59, 
+            "player2": "Mirco Cleva", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Tiselli", 
+            "player1points": 100, 
+            "player2": "Marco Rossetti", 
+            "player2points": 39, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Krzysztof Trojanowski", 
+            "player1points": 100, 
+            "player2": "Dante Stefanucci", 
+            "player2points": 52, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dariusz Butanowicz", 
+            "player1points": 32, 
+            "player2": "Antoine Colomb", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrei Voinescu", 
+            "player1points": 100, 
+            "player2": "Samuele Rasulo", 
+            "player2points": 57, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Davide Morselli", 
+            "player1points": 100, 
+            "player2": "Nicol Guadagnini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Lorenzo Becchetti", 
+            "player1points": 62, 
+            "player2": "Marc Martinez Satorres", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Off Jenkins", 
+            "player1points": 100, 
+            "player2": "Michal Bobrowski", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Lingua", 
+            "player1points": 16, 
+            "player2": "Alex Ceccaroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Franck Pittiloni", 
+            "player1points": 68, 
+            "player2": "Sergio Alvarez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Archibald Zimonyi", 
+            "player1points": 44, 
+            "player2": "Marco Nocera", 
+            "player2points": 33, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicol Cuzzocrea", 
+            "player1points": 26, 
+            "player2": "Filip Drnovsek Zorko", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Yann LAUVERGNE", 
+            "player1points": 100, 
+            "player2": "Stefano Rossi", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ruben Barrio Guerrero", 
+            "player1points": 21, 
+            "player2": "Hermes Maxime", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matt Button", 
+            "player1points": 22, 
+            "player2": "Viktor Kuzmin", 
+            "player2points": 60, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Roberto Pezzutto", 
+            "player1points": 100, 
+            "player2": "Adri Gambin Molina", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Denny Provenzano Ignazio", 
+            "player1points": 100, 
+            "player2": "Luca Gubernati", 
+            "player2points": 28, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Valerio de Lucia", 
+            "player1points": 54, 
+            "player2": "Bogdan Andrei Anton", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Pawel Rojewski", 
+            "player1points": 100, 
+            "player2": "Stefano Terminiello", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Wode", 
+            "player1points": 100, 
+            "player2": "Wojciech Pisarek", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Stefano Freti", 
+            "player1points": 51, 
+            "player2": "Adam Shipley", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcelo Soto", 
+            "player1points": 100, 
+            "player2": "Gianluca Targhini", 
+            "player2points": 37, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fantini Federico", 
+            "player1points": 54, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Peloni", 
+            "player1points": 41, 
+            "player2": "Leonardo D'Amato", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Federico Bostrenghi", 
+            "player1points": 0, 
+            "player2": "Marco Crivaro", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Victoria Raiteri", 
+            "player1points": 100, 
+            "player2": "Bernd Vihan", 
+            "player2points": 69, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mrton Kenessey", 
+            "player1points": 39, 
+            "player2": "Fitzgerald Ferrando", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Liborio Di Vincenzo", 
+            "player1points": 100, 
+            "player2": "Sebastian Sanchez Contreras", 
+            "player2points": 47, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Adrian Chouquot", 
+            "player1points": 100, 
+            "player2": "Alessandro Raiteri", 
+            "player2points": 53, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcello Beccati", 
+            "player1points": 50, 
+            "player2": "Milan Avramovic", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Benciolini", 
+            "player1points": 100, 
+            "player2": "Juan del Ro", 
+            "player2points": 70, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 71, 
+            "player2": "Ivan Verdera Igeo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Gonzalo Sanchez", 
+            "player1points": 100, 
+            "player2": "Marco Carone", 
+            "player2points": 24, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mirko Petriconi", 
+            "player1points": 100, 
+            "player2": "Ricardo Panella", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Piscini", 
+            "player1points": 78, 
+            "player2": "Vincenzo Cimabue", 
+            "player2points": 64, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Peano", 
+            "player1points": 100, 
+            "player2": "Federico Martin", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Johnny Orsolin", 
+            "player1points": 0, 
+            "player2": "Domingo Rodriguez", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 82, 
+            "player2": "Radu-Cristian Puhalschi", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giuseppe Catanesi", 
+            "player1points": 100, 
+            "player2": "Thomas Strassmayer", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Michael Parkinson", 
+            "player1points": 0, 
+            "player2": "Laurence Moore", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Aritz Lopategi", 
+            "player1points": 100, 
+            "player2": "Brendan Dougherty", 
+            "player2points": 33, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Tiraboschi", 
+            "player1points": 17, 
+            "player2": "Alessio Cialli", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan Arrebola Campos", 
+            "player1points": 0, 
+            "player2": "Damjan Makuc", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Durand", 
+            "player1points": 100, 
+            "player2": "Luis Casass Moya", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mattia Vianello", 
+            "player1points": 100, 
+            "player2": "Giovanni Baccara", 
+            "player2points": 62, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Fabio Gasparini", 
+            "player1points": 44, 
+            "player2": "Giacomo Tarlini", 
+            "player2points": 14, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Patrick Partesotti", 
+            "player1points": 48, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Repetto", 
+            "player1points": 48, 
+            "player2": "Giacomo Pasquini", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dario Calandra", 
+            "player1points": 100, 
+            "player2": "Luigi Jacopo Santa Maria", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Buffiere Pierre", 
+            "player1points": 26, 
+            "player2": "Oriol Barns", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Karlos Viana Kalipo", 
+            "player1points": null, 
+            "player2": "", 
+            "player2points": null, 
+            "result": "bye"
+          }
+        ], 
+        "round-number": 5, 
+        "round-type": "swiss"
+      }, 
+      {
+        "matches": [
+          {
+            "player1": "Alessandro Zaramella", 
+            "player1points": 51, 
+            "player2": "Alessandro Mazzi", 
+            "player2points": 63, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Setik", 
+            "player1points": 0, 
+            "player2": "Bartosz Ken Wojcicki", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Carlo Tozzi", 
+            "player1points": 64, 
+            "player2": "Mattia Molinero", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessandro Marmorini", 
+            "player1points": 55, 
+            "player2": "Schmas Marco", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Jack Mooney", 
+            "player1points": 100, 
+            "player2": "Fabio Cortini", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Yann LAUVERGNE", 
+            "player1points": 100, 
+            "player2": "Liborio Di Vincenzo", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sergio Alvarez", 
+            "player1points": 0, 
+            "player2": "Marco Turchiano", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marcelo Soto", 
+            "player1points": 20, 
+            "player2": "Fitzgerald Ferrando", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Leonardo D'Amato", 
+            "player1points": 0, 
+            "player2": "Lorenzo Marasca", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Christian Wode", 
+            "player1points": 100, 
+            "player2": "Francesco Benciolini", 
+            "player2points": 37, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Viktor Kuzmin", 
+            "player1points": 52, 
+            "player2": "Filip Drnovsek Zorko", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Krzysztof Trojanowski", 
+            "player1points": 0, 
+            "player2": "Adam Shipley", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Roberto Pezzutto", 
+            "player1points": 100, 
+            "player2": "Mirco Cleva", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrei Voinescu", 
+            "player1points": 53, 
+            "player2": "Adrian Chouquot", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Tomasz Zelazko", 
+            "player1points": 66, 
+            "player2": "Marcello Beccati", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Andrea Novati", 
+            "player1points": 57, 
+            "player2": "Hermes Maxime", 
+            "player2points": 37, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Steffen Khler", 
+            "player1points": 100, 
+            "player2": "Ruben Sedano", 
+            "player2points": 32, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marc Martinez Satorres", 
+            "player1points": 100, 
+            "player2": "Victoria Raiteri", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Francesco Tiselli", 
+            "player1points": 100, 
+            "player2": "Pawel Rojewski", 
+            "player2points": 39, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alex Ceccaroni", 
+            "player1points": 100, 
+            "player2": "Davide Morselli", 
+            "player2points": 16, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Off Jenkins", 
+            "player1points": 100, 
+            "player2": "Gonzalo Sanchez", 
+            "player2points": 27, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Bogdan Andrei Anton", 
+            "player1points": 100, 
+            "player2": "Ivan Verdera Igeo", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mirko Petriconi", 
+            "player1points": 0, 
+            "player2": "Denny Provenzano Ignazio", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Crivaro", 
+            "player1points": 100, 
+            "player2": "Alessandro Piscini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Archibald Zimonyi", 
+            "player1points": 100, 
+            "player2": "Michael Schnoedt", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Dale Cromwell", 
+            "player1points": 100, 
+            "player2": "Antoine Colomb", 
+            "player2points": 66, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Lingua", 
+            "player1points": 100, 
+            "player2": "Giuseppe Catanesi", 
+            "player2points": 44, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Nicolas Durand", 
+            "player1points": 54, 
+            "player2": "Laurence Moore", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Phill Blackmore", 
+            "player1points": 0, 
+            "player2": "Nicol Cuzzocrea", 
+            "player2points": 68, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Matteo Ruffilli", 
+            "player1points": 0, 
+            "player2": "Samuele Rasulo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Mrton Kenessey", 
+            "player1points": 100, 
+            "player2": "Marco Carone", 
+            "player2points": 31, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Milan Avramovic", 
+            "player1points": 100, 
+            "player2": "Carlo Peano", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Ricardo Panella", 
+            "player1points": 0, 
+            "player2": "Filippo Fioroni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Nocera", 
+            "player1points": 81, 
+            "player2": "Franck Pittiloni", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Domingo Rodriguez", 
+            "player1points": 100, 
+            "player2": "Fabio Gasparini", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Sebastian Sanchez Contreras", 
+            "player1points": 100, 
+            "player2": "Adri Gambin Molina", 
+            "player2points": 60, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luca Gubernati", 
+            "player1points": 72, 
+            "player2": "Alessandro Raiteri", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Marco Rossetti", 
+            "player1points": 44, 
+            "player2": "Stefano Terminiello", 
+            "player2points": 0, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Pasquini", 
+            "player1points": 31, 
+            "player2": "Mattia Vianello", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Juan del Ro", 
+            "player1points": 54, 
+            "player2": "Karlos Viana Kalipo", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Valerio de Lucia", 
+            "player1points": 0, 
+            "player2": "Aritz Lopategi", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Alessio Cialli", 
+            "player1points": 0, 
+            "player2": "Buffiere Pierre", 
+            "player2points": 100, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giacomo Tarlini", 
+            "player1points": 22, 
+            "player2": "Vincenzo Cimabue", 
+            "player2points": 78, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Radu-Cristian Puhalschi", 
+            "player1points": 100, 
+            "player2": "Johnny Orsolin", 
+            "player2points": 54, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Luis Casass Moya", 
+            "player1points": 100, 
+            "player2": "Christian Repetto", 
+            "player2points": 26, 
+            "result": "win"
+          }, 
+          {
+            "player1": "Giovanni Baccara", 
+            "player1points": 34, 
+            "player2": "Brendan Dougherty", 
+            "player2points": 100, 
+            "result": "win"
+          }
+        ], 
+        "round-number": 6, 
+        "round-type": "swiss"
+      }
+    ], 
+    "type": "System Open", 
+    "venue": {
+      "city": "Castel San Pietro Terme", 
+      "country": "Italy", 
+      "lat": "44.401269900000", 
+      "lon": "11.585498700000", 
+      "name": "Centro Congressi Artemide", 
+      "state": "Emilia-Romagna"
+    }, 
+    "video_url": "https://www.twitch.tv/firstearth"
+  }
+}
