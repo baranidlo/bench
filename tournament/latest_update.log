@@ -3,17 +3,24 @@ From github.com:baranidlo/bench
 Already up-to-date.
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2019-11-20 07:03:39--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2019-11-21 07:03:36--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 35.173.69.207
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|35.173.69.207|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 45059 (44K) [application/json]
-Saving to: ‘tournaments’
-
-     0K .......... .......... .......... .......... ....      100%  272K=0.2s
-
-2019-11-20 07:03:39 (272 KB/s) - ‘tournaments’ saved [45059/45059]
+HTTP request sent, awaiting response... 503 Service Temporarily Unavailable
+2019-11-21 07:03:36 ERROR 503: Service Temporarily Unavailable.
 
 Downloading new tournament list data...
-To git@github.com:baranidlo/bench.git
-   f1e9e8b..e31f604  gh-pages -> gh-pages
+Traceback (most recent call last):
+  File "./diff_tournaments.py", line 33, in <module>
+    diffFiles(sys.argv[1], sys.argv[2])
+  File "./diff_tournaments.py", line 17, in diffFiles
+    new_tournament_data = json.load(n)
+  File "/usr/lib/python3.5/json/__init__.py", line 268, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
