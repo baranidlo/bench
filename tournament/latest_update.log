@@ -3,11 +3,11 @@ From github.com:baranidlo/bench
 Already up-to-date.
 Moving old 'tournaments' to 'tournaments.old'...
 Downloading new 'tournaments' file...
---2020-04-12 07:04:06--  http://lists.starwarsclubhouse.com/api/v1/tournaments
+--2020-04-13 07:03:42--  http://lists.starwarsclubhouse.com/api/v1/tournaments
 Resolving lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)... 35.173.69.207
 Connecting to lists.starwarsclubhouse.com (lists.starwarsclubhouse.com)|35.173.69.207|:80... connected.
 HTTP request sent, awaiting response... 404 Not Found
-2020-04-12 07:04:06 ERROR 404: Not Found.
+2020-04-13 07:03:42 ERROR 404: Not Found.
 
 Downloading new tournament list data...
 Traceback (most recent call last):
@@ -24,5 +24,3 @@ Traceback (most recent call last):
   File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
     raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-To git@github.com:baranidlo/bench.git
-   5f95d47..66a3878  gh-pages -> gh-pages
